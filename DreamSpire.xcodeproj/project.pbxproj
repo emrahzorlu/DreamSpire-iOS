@@ -28,9 +28,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B1D919D92EB66F2A000C752A /* DreamWeaver */ = {
+		B1D919D92EB66F2A000C752A /* DreamSpire */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DreamWeaver;
+			path = DreamSpire;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -70,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				B17100382EFDDB6700B871D1 /* DreamSpire-Info.plist */,
-				B1D919D92EB66F2A000C752A /* DreamWeaver */,
+				B1D919D92EB66F2A000C752A /* DreamSpire */,
 				B17A8C442ECC109B00FDA8FC /* Frameworks */,
 				B1D919D82EB66F2A000C752A /* Products */,
 			);
@@ -100,7 +100,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B1D919D92EB66F2A000C752A /* DreamWeaver */,
+				B1D919D92EB66F2A000C752A /* DreamSpire */,
 			);
 			name = DreamSpire;
 			packageProductDependencies = (
@@ -116,7 +116,7 @@
 				B171004D2EFDEF1D00B871D1 /* Shimmer */,
 				B17C862D2F07650600A15860 /* FirebaseMessaging */,
 			);
-			productName = DreamWeaver;
+			productName = DreamSpire;
 			productReference = B1D919D72EB66F2A000C752A /* DreamSpire.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -329,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emrahzorlu.DreamWeaver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrahzorlu.DreamSpire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -365,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emrahzorlu.DreamWeaver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrahzorlu.DreamSpire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
