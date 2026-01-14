@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlegmail</string>
+		<string>ms-outlook</string>
+		<string>ymail</string>
+		<string>readdle-spark</string>
+		<string>protonmail</string>
+	</array>
+    <key>FirebaseAppDelegateProxyEnabled</key>
+    <false/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CrimsonText-Bold.ttf</string>
+		<string>CrimsonText-BoldItalic.ttf</string>
+		<string>CrimsonText-Italic.ttf</string>
+		<string>CrimsonText-Regular.ttf</string>
+		<string>CrimsonText-SemiBold.ttf</string>
+		<string>CrimsonText-SemiBoldItalic.ttf</string>
+		<string>SFPRODISPLAYBLACKITALIC.OTF</string>
+		<string>SFPRODISPLAYBOLD.OTF</string>
+		<string>SFPRODISPLAYHEAVYITALIC.OTF</string>
+		<string>SFPRODISPLAYLIGHTITALIC.OTF</string>
+		<string>SFPRODISPLAYMEDIUM.OTF</string>
+		<string>SFPRODISPLAYREGULAR.OTF</string>
+		<string>SFPRODISPLAYSEMIBOLDITALIC.OTF</string>
+		<string>SFPRODISPLAYTHINITALIC.OTF</string>
+		<string>SFPRODISPLAYULTRALIGHTITALIC.OTF</string>
+	</array>
+</dict>
+</plist>
