@@ -24,17 +24,25 @@ class CoinShopViewModel: ObservableObject {
     @Published var products: [Product] = []
 
     // MARK: - Dependencies
-    private let coinService = CoinService.shared
+    private let coinService: CoinService
     var onDismiss: (() -> Void)?
     private var cancellables = Set<AnyCancellable>()
     private var updateListenerTask: Task<Void, Error>?
     
     // MARK: - Initialization
-    init() {
+    
+    /// Default initializer using shared instance
+    convenience init() {
+        self.init(coinService: CoinService.shared)
+    }
+    
+    /// Dependency injection initializer for testing
+    init(coinService: CoinService) {
+        self.coinService = coinService
         setupPackages()
         updateListenerTask = listenForTransactions()
 
-        // Initialize with cached balance immediately to avoid showing 0
+        // Initialize with cached balance immediately
         currentBalance = coinService.coinBalance?.balance ?? 0
 
         Task {

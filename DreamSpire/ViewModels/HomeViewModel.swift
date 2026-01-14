@@ -35,12 +35,12 @@ class HomeViewModel: ObservableObject {
     @Published var showingStoryReader = false
     @Published var showingPaywallForStory = false
 
-    // MARK: - Dependencies (Repository Pattern)
+    // MARK: - Dependencies (Protocol-Based for Testing)
 
-    private let storyRepository = StoryRepository.shared
-    private let userStoryRepository = UserStoryRepository.shared
-    private let subscriptionService = SubscriptionService.shared
-    private let authManager = AuthManager.shared
+    private let storyRepository: StoryRepository
+    private let userStoryRepository: UserStoryRepository
+    private let subscriptionService: SubscriptionService
+    private let authManager: AuthManager
 
     private var cancellables = Set<AnyCancellable>()
     private var loadContentTask: Task<Void, Error>?
@@ -50,8 +50,28 @@ class HomeViewModel: ObservableObject {
     private var hasLoadedContent = false
 
     // MARK: - Initialization
-
-    init() {
+    
+    /// Default initializer using shared instances
+    convenience init() {
+        self.init(
+            storyRepository: StoryRepository.shared,
+            userStoryRepository: UserStoryRepository.shared,
+            subscriptionService: SubscriptionService.shared,
+            authManager: AuthManager.shared
+        )
+    }
+    
+    /// Dependency injection initializer for testing
+    init(
+        storyRepository: StoryRepository,
+        userStoryRepository: UserStoryRepository,
+        subscriptionService: SubscriptionService,
+        authManager: AuthManager
+    ) {
+        self.storyRepository = storyRepository
+        self.userStoryRepository = userStoryRepository
+        self.subscriptionService = subscriptionService
+        self.authManager = authManager
         DWLogger.shared.info("HomeViewModel initialized", category: .ui)
         setupSubscriptions()
         loadUserInfo()
