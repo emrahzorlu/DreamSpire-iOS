@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cloud_soft.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

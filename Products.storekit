@@ -1,0 +1,275 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "69CCD0C8",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "5.99",
+      "familyShareable" : false,
+      "internalID" : "6755164727",
+      "localizations" : [
+        {
+          "description" : "Create approximately 4-5 stories",
+          "displayName" : "1,200 Coins",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.emrahzorlu.DreamSpire.coins.basic2",
+      "referenceName" : "1200 Coins Basic",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "34.99",
+      "familyShareable" : false,
+      "internalID" : "6755164661",
+      "localizations" : [
+        {
+          "description" : "Create ~48 stories",
+          "displayName" : "12,000 Coins",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.emrahzorlu.DreamSpire.coins.ultimate",
+      "referenceName" : "12000 Coins Ultimate",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "6755164781",
+      "localizations" : [
+        {
+          "description" : "Create ~10 stories • MOST POPULAR",
+          "displayName" : "2,500 Coins",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.emrahzorlu.DreamSpire.coins.popular",
+      "referenceName" : "2500 Coins Popular",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "6755164836",
+      "localizations" : [
+        {
+          "description" : "Create approximately 2 stories",
+          "displayName" : "500 Coins",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.emrahzorlu.DreamSpire.coins.starter",
+      "referenceName" : "500 Coins Starter",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "17.99",
+      "familyShareable" : false,
+      "internalID" : "6755164838",
+      "localizations" : [
+        {
+          "description" : "Create ~22 stories • BEST VALUE",
+          "displayName" : "5,500 Coins",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.emrahzorlu.DreamSpire.coins.mega",
+      "referenceName" : "5500 Coins Mega",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6755164371",
+    "_developerTeamID" : "TF48UQ5NV2",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 784602949.11976802,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21830298",
+      "localizations" : [
+
+      ],
+      "name" : "DreamSpire Subscriptions",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6755164742",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "4,000 coins per month, save characters, unlimited stories",
+              "displayName" : "DreamSpire Plus Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.emrahzorlu.DreamSpire.plus.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "DreamSpire Plus Monthly",
+          "subscriptionGroupID" : "21830298",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "99.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6755164743",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "48,000 coins per year, save characters, unlimited stories. 2 months free!",
+              "displayName" : "DreamSpire Plus Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.emrahzorlu.DreamSpire.subscription.plus.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "DreamSpire Plus Yearly",
+          "subscriptionGroupID" : "21830298",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "17.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6755164747",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "10,000 coins per month, illustrated stories, premium voices",
+              "displayName" : "DreamSpire Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.emrahzorlu.DreamSpire.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "DreamSpire Pro Monthly",
+          "subscriptionGroupID" : "21830298",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "179.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6755164748",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "120,000 coins per year, illustrated stories, premium voices. 2 months free!",
+              "displayName" : "DreamSpire Pro Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.emrahzorlu.DreamSpire.subscription.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "DreamSpire Pro Yearly",
+          "subscriptionGroupID" : "21830298",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

@@ -1,0 +1,1444 @@
+/* 
+  Localizable.strings (English)
+  DreamSpire
+  
+  English localization
+*/
+
+// MARK: - Common
+"app_name" = "DreamSpire";
+"ok" = "OK";
+"cancel" = "Cancel";
+"done" = "Done";
+"save" = "Save";
+"delete" = "Delete";
+"edit" = "Edit";
+"close" = "Close";
+"back" = "Back";
+"next" = "Next";
+"continue" = "Continue";
+"retry" = "Retry";
+"loading" = "Loading...";
+"error" = "Error";
+"success" = "Success";
+"warning" = "Warning";
+"info" = "Info";
+"yes" = "Yes";
+"no" = "No";
+"search" = "Search";
+"filter" = "Filter";
+"sort" = "Sort";
+"all" = "All";
+"none" = "None";
+"select" = "Select";
+"required" = "Required";
+"optional" = "Optional";
+
+// MARK: - Tab Bar
+"tab_home" = "Home";
+"tab_create" = "Create";
+"tab_library" = "Library";
+"tab_settings" = "Settings";
+
+// MARK: - Home Screen
+"home_welcome" = "Hello, %@";
+"home_welcome_guest" = "Welcome to DreamSpire!";
+"user_name_default" = "Dream Traveler";
+"home_my_stories" = "📚 My Stories";
+"home_see_all" = "See All";
+"home_no_stories" = "No Stories Yet";
+"home_no_stories_subtitle" = "Create your first story and see it here";
+"home_create_story" = "Create Story";
+"home_popular_classics" = "🎭 Popular Classics";
+"home_animal_stories" = "🦊 Animal Stories";
+"home_adventure_stories" = "🚀 Adventure Stories";
+"home_quick_stories" = "Quick Stories";
+"home_quick_stories_emoji" = "⚡ Quick Stories";
+"home_unlimited_stories" = "Unlimited Stories";
+"home_explore_imagination" = "Explore the limits of your imagination";
+"home_upgrade_plus" = "Upgrade to Plus";
+
+// Premium Banner
+"premium_banner_title_line1" = "Unlimited Story";
+"premium_banner_title_line2" = "World";
+"premium_banner_benefit_audio" = "Audio narration";
+"premium_banner_benefit_images" = "Illustrated stories";
+"guest_user" = "Guest User";
+"premium_banner_cta" = "Upgrade Now";
+"home_create_your_story" = "Create your own story";
+"home_from_templates" = "Choose from templates";
+"home_story_ready" = "Story Ready!";
+"home_test_success" = "Test successful";
+
+// MARK: - Story Creation
+"create_step1_title" = "Story Idea";
+"create_step2_title" = "Characters";
+"create_step3_title" = "Details";
+"create_step4_title" = "Length & Features";
+"create_story_idea" = "What's your story idea?";
+"create_story_idea_placeholder" = "Example: A little cat goes to space...";
+"create_genre" = "Genre";
+"create_tone" = "Tone";
+"create_generating" = "Creating Story";
+"create_characters_coming" = "Characters are coming to life...";
+"create_adventure_forming" = "Adventure is taking shape...";
+"create_magic_touches" = "Adding magical touches...";
+"create_images_creating" = "Creating images...";
+"create_preparing" = "Preparing story...";
+"create_writing" = "Writing story...";
+"create_final_touches" = "Final touches...";
+"create_almost_ready" = "Almost ready...";
+
+// MARK: - Characters
+"character_title" = "Character %d";
+"main_character_badge" = "Main Character";
+"character_add" = "Add Character";
+"character_name" = "Name";
+"character_name_placeholder" = "Enter name";
+"character_age" = "Age";
+"character_age_placeholder" = "Age";
+"character_age_optional" = "Age (optional)";
+"character_description_optional" = "Description (optional)";
+"character_type" = "Character Type";
+"character_save" = "Save";
+"character_saved" = "Saved";
+"character_my_characters" = "My Characters";
+"character_saved_characters" = "Saved Characters";
+"character_select_saved" = "Select from My Characters";
+"character_count" = "%d characters";
+"character_used_in" = "Used in %d stories";
+"character_save_success" = "Character Saved!";
+"character_save_success_message" = "%@ saved successfully.";
+"character_save_removed" = "Removed from Saved";
+"character_save_removed_message" = "%@ removed from saved characters.";
+"character_save_failed" = "Save Failed";
+"character_save_failed_message" = "Could not save character. Please try again.";
+"character_never_used" = "Never used in a story yet";
+
+// MARK: - Character Types
+"character_type_child" = "Child";
+"character_type_teen" = "Teen";
+"character_type_adult" = "Adult";
+"character_type_mother" = "Mother";
+"character_type_father" = "Father";
+"character_type_sibling" = "Sibling";
+"character_type_grandmother" = "Grandmother";
+"character_type_grandfather" = "Grandfather";
+"character_type_dog" = "Dog";
+"character_type_cat" = "Cat";
+"character_type_bird" = "Bird";
+"character_type_horse" = "Horse";
+"character_type_rabbit" = "Rabbit";
+"character_type_other_pet" = "Other Pet";
+
+// MARK: - Character Relationships
+"character_relationship_none" = "Not Specified";
+"character_relationship_friend" = "Friend";
+"character_relationship_partner" = "Partner";
+"character_relationship_family" = "Family Member";
+"character_relationship_title" = "Relationship (Optional)";
+"character_relationship_hint" = "How is this character related to the story's hero?";
+
+// MARK: - Character Categories
+"character_category_people" = "People";
+"character_category_pets" = "Pets";
+
+// MARK: - Character Genders
+"character_gender_male" = "Male";
+"character_gender_female" = "Female";
+"character_gender_unspecified" = "Not Specified";
+"character_gender" = "Gender";
+
+// MARK: - Story Details
+"details_age_range" = "👶 Age Range";
+"details_age_range_subtitle" = "What age group should the story be for?";
+"details_language" = "🌍 Language";
+"details_language_subtitle" = "What language should the story be in?";
+"details_voice" = "🎙️ Voice Selection";
+"details_voice_subtitle" = "Select a voice for narration";
+"details_age_0_3" = "0-3 years";
+"details_age_4_6" = "4-6 years";
+"details_age_7_9" = "7-9 years";
+"details_age_10_12" = "10-12 years";
+"details_age_13_plus" = "13+";
+
+// MARK: - Duration & Addons
+"duration_title" = "Length & Features";
+"duration_quick" = "Quick";
+"duration_standard" = "Standard";
+"duration_extended" = "Extended";
+"duration_epic" = "Epic";
+"duration_minutes" = "%d min";
+"addon_audio" = "Audio Narration";
+"addon_audio_subtitle" = "Story will be narrated aloud";
+"addon_cover" = "Cover Image";
+"addon_cover_subtitle" = "Create a cover image for the story";
+"addon_illustrated" = "Illustrated Story";
+
+// MARK: - Story Options (Template)
+"options_title" = "Story Options";
+"options_total_cost" = "Total Cost";
+"options_sufficient_balance" = "Sufficient balance";
+"options_insufficient_balance" = "Insufficient balance";
+"options_balance" = "Balance: %d";
+"options_generate" = "Create Story";
+
+// MARK: - Templates
+"template_preview" = "Preview";
+"template_characters" = "Characters";
+"template_options" = "Options";
+"template_add_characters" = "Add Your Characters";
+"template_generating" = "Your template story is being prepared...";
+"template_category_all" = "All";
+"template_category_adventure" = "Adventure";
+"template_category_family" = "Family";
+"template_category_fantasy" = "Fantasy";
+"template_category_animals" = "Animals";
+"template_category_educational" = "Educational";
+"template_category_bedtime" = "Bedtime";
+"template_category_friendship" = "Friendship";
+"template_category_nature" = "Nature";
+"template_category_princess" = "Princess";
+"template_category_classic" = "Classic";
+"story_default_title" = "Story";
+"character_name_placeholder" = "Enter %@'s name...";
+
+// MARK: - Genres
+"genre_adventure" = "Adventure";
+"genre_fantasy" = "Fantasy";
+"genre_comedy" = "Comedy";
+"genre_mystery" = "Mystery";
+"genre_educational" = "Educational";
+"genre_fairytale" = "Fairy Tale";
+"genre_scifi" = "Sci-Fi";
+"genre_animal" = "Animal";
+
+// MARK: - Tones
+"tone_exciting" = "Exciting";
+"tone_calm" = "Calm";
+"tone_funny" = "Funny";
+"tone_mysterious" = "Mysterious";
+"tone_heartwarming" = "Heartwarming";
+"tone_adventurous" = "Adventurous";
+
+// MARK: - Library
+"library_title" = "Library";
+"library_my_stories" = "My Stories";
+"library_favorites" = "Favorites";
+"library_empty" = "No stories yet";
+"library_empty_favorites" = "No favorite stories yet";
+"library_empty_subtitle" = "Start creating your first story!";
+"library_start_creating" = "Create Story";
+
+// Short tab titles (single line, no emojis)
+"library_tab_stories" = "Stories";
+"library_tab_favorites" = "Favorites";
+"library_tab_prewritten" = "Ready";
+
+// Time formatting
+"min_suffix" = "min";
+
+// MARK: - Story Reader
+"reader_page" = "Page %d/%d";
+"reader_listen" = "Listen";
+"reader_stop" = "Stop";
+"reader_favorite" = "Add to Favorites";
+"settings_restore_purchases" = "Restore Purchases";
+"settings_restore_success" = "Your purchases have been successfully restored.";
+"settings_success_title" = "Success";
+"settings_error_title" = "Error";
+"restore_success_message" = "Your subscriptions have been successfully restored.";
+"restore_error_message" = "Failed to restore purchases. Please try again.";
+"paywall_success_title" = "Success";
+"paywall_error_title" = "Error";
+"reader_unfavorite" = "Remove from Favorites";
+"reader_share" = "Share";
+"reader_delete" = "Delete";
+"reader_delete_confirm" = "Are you sure you want to delete this story?";
+"reader_delete_success" = "Story deleted";
+
+// MARK: - Settings
+"settings_title" = "Settings";
+"settings_content" = "Content";
+"settings_my_characters" = "My Characters";
+"settings_characters_locked" = "Unlock with Plus or Pro";
+"upgrade" = "Upgrade";
+"settings_my_stories" = "My Stories";
+"settings_my_favorites" = "My Favorites";
+"settings_prewritten_stories" = "Prewritten Stories";
+"settings_preferences" = "Preferences";
+"settings_notifications" = "Notifications";
+"settings_language" = "Language";
+"settings_theme" = "Theme";
+"settings_support" = "Support";
+"settings_faq" = "FAQ";
+"settings_contact" = "Contact Us";
+"settings_copy_email_success_title" = "Copied";
+"settings_copy_email_success_message" = "Email address copied to clipboard";
+"settings_copy_email_long_press" = "Copy Email Address";
+"settings_rate_app" = "Rate App";
+"settings_legal" = "Legal";
+"settings_terms" = "Terms of Use";
+"settings_privacy" = "Privacy Policy";
+"settings_version" = "Version";
+"settings_sign_out" = "Sign Out";
+"settings_sign_out_title" = "Sign Out";
+"settings_sign_out_message" = "Are you sure you want to sign out of your account?";
+"settings_sign_out_confirm" = "Sign Out";
+"settings_sign_out_cancel" = "Cancel";
+"settings_delete_account" = "Delete Account";
+"settings_delete_account_title" = "Delete Account";
+"settings_delete_account_message" = "Are you sure you want to delete your account? This action cannot be undone and all your data will be permanently deleted.";
+"settings_delete_account_confirm" = "Yes, Delete";
+"settings_delete_account_cancel" = "Cancel";
+"settings_login_register" = "Sign In / Register";
+"settings_login_subtitle" = "Protect your stories and purchases";
+"settings_tap_to_login" = "Tap to sign in";
+"settings_unlock_premium" = "Unlock Premium 👑";
+"settings_premium_subtitle" = "Unlimited stories, custom characters and more";
+"settings_premium_unlock" = "Unlock Premium";
+
+// Splash Screen
+"splash_tagline" = "Where Stories Come Alive";
+"settings_premium_benefits" = "Features ✨";
+"settings_benefit_audio" = "Audio Stories";
+"settings_benefit_images" = "Illustrated";
+"settings_upgrade_now" = "Upgrade Now";
+"settings_pro_unlock" = "Unlock Illustrated Stories";
+"settings_pro_illustrated" = "Stunning images on every page";
+"coinshop_pro_title" = "Unlock Illustrated Stories";
+"coinshop_pro_subtitle" = "Stunning visuals with Pro";
+"settings_account_deleted" = "Your account has been successfully deleted.";
+"pro_upgrade_limited_chars" = "Character Limit Reached";
+"pro_upgrade_unlimited_chars_message" = "You can save up to 10 characters with Plus. Upgrade to Pro for unlimited characters and to bring your stories to life with illustrations!";
+
+// MARK: - Theme
+"theme_light" = "Light";
+"theme_dark" = "Dark";
+"theme_auto" = "Auto";
+
+// MARK: - Profile
+"profile_guest" = "Guest User";
+"profile_user" = "User";
+"profile_save_data" = "Sign up to save your data";
+"profile_name_placeholder" = "Name";
+
+// MARK: - Subscription
+"subscription_title" = "Subscription";
+"subscription_coin_balance" = "COIN BALANCE";
+"subscription_membership" = "MEMBERSHIP";
+"subscription_load" = "Load";
+"subscription_upgrade" = "Upgrade";
+"subscription_free" = "Free";
+"subscription_plus" = "Plus";
+"subscription_pro" = "Pro";
+"subscription_status_active" = "Active";
+"subscription_status_inactive" = "Inactive";
+"subscription_status_canceled" = "Canceled";
+"subscription_status_expired" = "Expired";
+"subscription_status_past_due" = "Payment Due";
+"subscription_status_trial" = "Trial";
+"subscription_interval_month" = "Monthly";
+"subscription_interval_year" = "Yearly";
+
+// PDF Export
+"pdf_cover_created_by" = "✨ Created with DreamSpire ✨";
+"pdf_cover_tagline" = "Transform your imagination into stories";
+"pdf_cover_pages" = "Pages";
+"pdf_cover_minutes" = "min";
+// MARK: - Coins
+"coins_shop" = "Coin Shop";
+"coins_balance" = "Balance";
+"coins_buy" = "Buy";
+"coins_history" = "Transaction History";
+"coins_insufficient" = "Insufficient Coins";
+"coins_insufficient_message" = "You don't have enough coins for this action.";
+"coins_purchase" = "Buy Coins";
+
+// MARK: - Notifications
+"notification_title" = "Notifications";
+"notification_enable_message" = "Would you like to receive notifications about new stories, special offers, and important updates?";
+"notification_enable" = "Enable";
+"notification_disable_message" = "To disable notifications, please use the iOS Settings app.";
+"notification_go_settings" = "Go to Settings";
+"notification_disabled_title" = "Notifications Disabled";
+"notification_disabled_message" = "You can enable notifications later in Settings.";
+"notification_story_ready_title" = "🎉 Your Story is Ready!";
+"notification_story_ready_body" = "Your amazing story has been created. Start reading now!";
+"notification_permission_title" = "Notification Permission";
+"notification_permission_message" = "We need your permission to notify you when your story is ready. Would you like to allow?";
+"notification_permission_allow" = "Allow";
+"notification_wait_message" = "Don't want to wait? Enable notifications";
+"notification_will_notify" = "We'll notify you when generation is complete";
+
+// MARK: - Errors
+"error_generic" = "An error occurred. Please try again.";
+"error_network" = "Check your internet connection.";
+"error_server" = "Server error. Please try again later.";
+"error_auth" = "Your session has expired. Please sign in again.";
+"error_balance_load" = "Could not load balance";
+"error_story_create" = "Could not create story";
+
+// MARK: - Transaction History
+"transaction_history" = "Transaction History";
+"no_transactions" = "No Transactions Yet";
+"no_transactions_desc" = "Your coin spending and earnings will appear here";
+"coins_history" = "Transaction History";
+"transaction_reason_story_creation" = "Story Creation";
+"transaction_reason_purchase" = "Coin Purchase";
+"transaction_reason_refund" = "Refund";
+"transaction_reason_daily_reward" = "Daily Reward";
+"transaction_reason_welcome_gift" = "Welcome Gift";
+"transaction_reason_subscription" = "Subscription";
+"transaction_reason_subscription_started" = "Subscription Started";
+"transaction_reason_bonus" = "Bonus Coins";
+"transaction_reason_subscription_coins" = "Subscription Coins";
+"transaction_reason_account_created" = "Account Creation Gift";
+"transaction_reason_subscription_renewal" = "Subscription Renewal";
+"transaction_reason_subscription_upgrade" = "Subscription Upgrade";
+"transaction_reason_welcome_bonus" = "Welcome Bonus";
+"transaction_reason_guest_account_linked" = "Account Linked";
+"transaction_reason_account_created_no_coins_abuse_prevention" = "Device Already Registered";
+"transaction_reason_account_created_transaction_error" = "Transaction Error";
+"transaction_reason_monthly_refill" = "Monthly Refill";
+"transaction_reason_account_sync" = "Account Sync";
+"transaction_reason_subscription_verified" = "Subscription Verified";
+
+// MARK: - Character Description Hint
+"character_description_hint" = "Describe your character's appearance and personality. E.g., A cheerful kid with red hair...";
+"error_fill_required" = "Please fill in all required fields";
+"error_character_required" = "%@ is required";
+
+// MARK: - Onboarding
+"onboarding_welcome" = "Welcome to DreamSpire";
+"onboarding_subtitle" = "Personalized stories for children";
+"onboarding_get_started" = "Get Started";
+"onboarding_skip" = "Skip";
+"onboarding_page1_title" = "Turn Your Dreams into Stories";
+"onboarding_page1_desc" = "Create personalized stories with AI";
+"onboarding_page2_title" = "Create Your Characters";
+"onboarding_page2_desc" = "Add your own characters and use them in stories";
+"onboarding_page3_title" = "Listen and Read";
+"onboarding_page3_desc" = "Listen to your stories or read them";
+
+// MARK: - Auth
+"auth_sign_in" = "Sign In";
+"auth_sign_up" = "Sign Up";
+"auth_sign_out" = "Sign Out";
+"auth_email" = "Email";
+"auth_password" = "Password";
+"auth_forgot_password" = "Forgot Password";
+"auth_continue_guest" = "Continue as Guest";
+"auth_continue_apple" = "Continue with Apple";
+"auth_continue_google" = "Continue with Google";
+
+// MARK: - Tier Badges
+"tier_free" = "Free";
+"tier_plus" = "Plus";
+"tier_pro" = "Pro";
+
+// MARK: - Generating View
+"generating_title" = "Creating Story";
+"generating_notification_prompt" = "Don't want to wait? Enable notifications";
+"generating_will_notify" = "We'll notify you when generation is complete";
+
+// MARK: - Voice Options (6 voices)
+"voice_nova" = "Nova";
+"voice_nova_desc" = "Warm Female";
+"voice_shimmer" = "Shimmer";
+"voice_shimmer_desc" = "Soft Female";
+"voice_fable" = "Fable";
+"voice_fable_desc" = "Narrator";
+"voice_alloy" = "Alloy";
+"voice_alloy_desc" = "Balanced";
+"voice_echo" = "Echo";
+"voice_echo_desc" = "Deep Male";
+"voice_onyx" = "Onyx";
+"voice_onyx_desc" = "Strong Male";
+
+// MARK: - Paywall
+"paywall_title" = "Upgrade to Premium";
+"paywall_feature_unlimited" = "Unlimited story creation";
+"paywall_feature_characters" = "More characters";
+"paywall_feature_voices" = "All voice options";
+"paywall_feature_priority" = "Priority support";
+"paywall_restore" = "Restore Purchases";
+"paywall_privacy" = "Privacy Policy";
+"paywall_terms" = "Terms and conditions apply";
+
+// MARK: - Empty States
+"empty_no_results" = "No results found";
+"empty_try_different" = "Try different filters";
+
+// MARK: - Story Creation Steps
+"step_1_title" = "Story Idea";
+"step_2_title" = "Characters";
+"step_3_title" = "Details";
+"step_4_title" = "Length & Features";
+"step_1_of_4" = "Step 1: Story Idea";
+"step_2_of_4" = "Step 2: Characters";
+"step_3_of_4" = "Step 3: Details";
+"step_4_of_4" = "Step 4: Length & Features";
+"back" = "Back";
+"continue" = "Continue";
+"generate_story" = "Create Story";
+
+// MARK: - Character Creation
+"add_hero" = "Add a hero to your story.";
+"min_max_characters" = "Minimum 1, Maximum %d characters.";
+"character_add" = "Add Character";
+"upgrade_for_characters" = "Upgrade to Plus (for %d characters)";
+"character_name_required" = "Name *";
+"character_age_label" = "Age (Optional)";
+"character_description_label" = "Description (Optional)";
+"character_description_optional" = "Description (Optional)";
+"saved_characters_title" = "Saved Characters";
+"used_in_stories" = "Used in %d stories";
+"age_years" = "%d years old";
+
+// MARK: - Details Step
+"details_title" = "Details";
+"voice_optional" = "Optional";
+
+// MARK: - Generating
+"generating_progress" = "%d%%";
+"notification_will_send" = "We'll notify you when it's ready";
+"notification_ask_permission" = "Don't want to wait? Enable notifications";
+"permission_allow" = "Allow";
+
+// MARK: - Subscription
+"subscription_unlock" = "Unlock DreamSpire";
+"subscription_unlimited" = "Create unlimited stories and share with your family";
+"subscription_current" = "Current Subscription";
+"subscription_free_plan" = "Free Plan";
+"subscription_monthly_stories" = "%d stories per month";
+"subscription_active" = "Active";
+"subscription_used_this_month" = "Used this month:";
+"subscription_stories_count" = "%d/%d stories";
+"subscription_upgrade_options" = "Upgrade Options";
+"subscription_compare_features" = "Compare Features";
+"subscription_upgrade_now" = "Upgrade Now";
+"subscription_cancel_anytime" = "Cancel anytime.\nSee settings for terms and privacy policy.";
+"subscription_recommended" = "RECOMMENDED";
+"subscription_per_month" = "$%.2f/mo";
+"subscription_unlimited_stories" = "Unlimited stories";
+"subscription_characters_per_story" = "%d characters/story";
+"subscription_pdf_export" = "PDF export";
+"subscription_plus_illustration" = "Plus + Illustration";
+"subscription_premium_voices" = "Premium voices";
+"paywall_plus_coins" = "+1000 Coins";
+"paywall_plus_stories" = "10+ Stories/month";
+"paywall_plus_characters" = "10 Character Slots";
+"paywall_plus_prewritten" = "All Ready Stories";
+"paywall_pdf_export" = "PDF Export";
+"paywall_pdf_audio_export" = "PDF & Audio Export";
+"paywall_buy_coins" = "Can Buy Coins";
+"paywall_pro_coins" = "+2500 Coins";
+"paywall_pro_stories" = "25+ Stories/month";
+"paywall_illustrated_stories" = "Illustrated Stories";
+"paywall_premium_voices" = "All Premium Voices";
+"paywall_unlimited_characters" = "Unlimited Characters";
+"paywall_coin_discount" = "Extra Coin Discount";
+
+// MARK: - Coins
+"coins_title" = "Coin Shop";
+"coins_insufficient_title" = "Insufficient Coins";
+"coins_need_more" = "You need more coins for this action.";
+"coins_current_balance" = "Current Balance";
+"coins_required" = "Required";
+"coins_buy_coins" = "Buy Coins";
+"coins_or" = "or";
+"coins_upgrade_unlimited" = "Upgrade for unlimited";
+
+// MARK: - Story Result
+"result_congratulations" = "Congratulations!";
+"result_story_ready" = "Your story is ready!";
+"result_read_now" = "Read Now";
+"result_share" = "Share";
+"result_create_another" = "Create Another Story";
+
+// MARK: - Profile
+"profile_title" = "Profile";
+"profile_edit" = "Edit";
+"profile_stories_created" = "Stories Created";
+"profile_characters_saved" = "Saved Characters";
+"profile_member_since" = "Member Since";
+
+// MARK: - FAQ
+"faq_title" = "Frequently Asked Questions";
+"faq_how_to_create" = "How do I create a story?";
+"faq_how_to_create_answer" = "Tap 'Create Story' from home, add your characters and create your story!";
+"faq_what_is_coin" = "What are coins?";
+"faq_what_is_coin_answer" = "Coins are in-app currency used to create stories.";
+"faq_languages" = "What languages can I create stories in?";
+"faq_languages_answer" = "You can create stories in Turkish, English, French, German and Spanish.";
+
+// MARK: - Contact
+"contact_title" = "Contact Us";
+"contact_email" = "Email";
+"contact_subject" = "Subject";
+"contact_message" = "Message";
+"contact_send" = "Send";
+
+
+// MARK: - Login
+"login_title" = "Welcome";
+"login_subtitle" = "Sign in to your account or create a new one";
+"login_start_adventure" = "Start Your Adventure";
+"login_create_account" = "Create Account";
+"login_join_world" = "Join the DreamSpire world";
+"login_sign_in" = "Sign In";
+"login_email" = "Email";
+"login_password" = "Password";
+"login_confirm_password" = "Confirm Password";
+"login_google" = "Continue with Google";
+"login_have_account" = "Already have an account? Sign In";
+"login_no_account" = "Don't have an account? Sign Up";
+"login_passwords_mismatch" = "Passwords don't match";
+"login_apple_error" = "Apple Sign In failed";
+"login_apple_error_failed" = "Apple Sign In failed. Please try again";
+"login_apple_error_invalid_response" = "Invalid response from Apple. Please try again";
+"login_apple_error_not_handled" = "Apple Sign In request could not be handled. Please try again";
+"login_apple_error_unknown" = "An unexpected error occurred during Apple Sign In";
+"login_apple_error_not_interactive" = "Apple Sign In is currently unavailable. Please try again later";
+"login_error_guest_continue" = "Could not continue as guest: %@";
+"login_email_placeholder" = "Your email";
+"login_password_placeholder" = "Your password";
+"login_forgot" = "Forgot your password?";
+"login_button" = "Sign In";
+"login_or" = "or";
+"login_register" = "Sign Up";
+"login_invalid_email" = "Invalid email address";
+"login_weak_password" = "Password must be at least 8 characters with 1 uppercase, 1 lowercase, and 1 number";
+"login_email_not_verified" = "Please verify your email address";
+"login_verification_sent" = "Verification email sent";
+"login_reset_password" = "Reset Password";
+"login_reset_sent" = "Reset link will be sent to your email address.";
+
+// Password Reset Screen
+"password_reset_title" = "Reset Your Password";
+"password_reset_subtitle" = "Enter your email address and we'll send you a password reset link";
+"password_reset_send_button" = "Send Reset Link";
+"password_reset_back_to_login" = "Back to Login";
+"password_reset_sent_title" = "Email Sent!";
+"password_reset_sent_subtitle" = "We've sent a password reset link to your email";
+"password_reset_check_email" = "Please check your inbox:";
+"password_reset_resend" = "Resend Email";
+"password_reset_resend_wait" = "Resend in %@";
+
+"login_error_email_exists" = "This email is already in use";
+"login_error_invalid_email" = "Invalid email address";
+"login_error_wrong_password" = "Wrong password";
+"login_error_invalid_credentials" = "Invalid email or password. Please check and try again";
+"login_error_weak_password" = "Password is too weak. Use at least 8 characters, 1 uppercase, 1 lowercase, and 1 number";
+"login_error_network" = "Network error. Please check your internet connection";
+"login_error_user_not_found" = "No user found with this email";
+"login_error_user_disabled" = "This account has been disabled";
+"login_error_too_many_requests" = "Too many attempts. Please try again later";
+"login_error_invalid_email_format" = "Please enter a valid email address";
+"login_error_passwords_mismatch" = "Passwords do not match";
+"login_error_invalid_credential" = "Invalid or expired credentials";
+"login_error_operation_not_allowed" = "This operation is not currently available";
+"login_error_requires_recent_login" = "Please sign in again to continue";
+"login_error_unknown" = "An error occurred. Please try again";
+
+// MARK: - Coins Modal
+"coins_missing" = "%d coins missing";
+"coins_one_time_package" = "Get a one-time coin package";
+"coins_refill_in_days" = "or refills in %d days";
+"coins_next_period" = "You'll get +%d next period";
+
+// MARK: - Upgrade Benefits
+"upgrade_to_plus" = "Upgrade to Plus";
+"upgrade_to_pro" = "Upgrade to Pro";
+"benefit_illustrations" = "Illustrated stories";
+"benefit_premium_voices" = "Premium voices";
+"benefit_family_account" = "Family account (5 users)";
+"benefit_stories_per_month" = "+ 10+ stories/month";
+
+// MARK: - Story Result
+"result_congratulations_message" = "You created an amazing story!";
+"result_reading_time" = "Time to read ✨";
+"pages_count" = "%d pages";
+"minutes_short" = "%d min";
+"illustrated" = "Illustrated";
+"with_audio" = "With Audio";
+"stat_pages" = "Pages";
+"stat_minutes" = "Minutes";
+"stat_illustrations" = "Illustrations";
+
+// MARK: - Character Create
+"character_saved_success" = "Character saved successfully!";
+"character_description_hint" = "Write a few sentences about your character";
+"character_type_required" = "Character Type *";
+
+// MARK: - Common
+"success" = "Success!";
+"error" = "Error";
+"ok" = "OK";
+
+// MARK: - Details Screen
+"details_age_range" = "👶 Age Range";
+"details_age_range_subtitle" = "Which age group should the story be for?";
+"details_language" = "🌍 Language";
+"details_language_subtitle" = "What language should the story be in?";
+"details_voice" = "🎙️ Voice Selection";
+
+// MARK: - Notification
+"notification_permission_title" = "Notification Permission";
+
+// MARK: - Profile
+"profile_guest_mode" = "You're in Guest Mode";
+"profile_guest_hint" = "Sign in to save your stories and sync across devices";
+"profile_sign_in_or_create" = "Sign In or Create Account";
+
+// MARK: - Story Creation
+"almost_ready" = "Almost ready!";
+"almost_ready_subtitle" = "Set the final options and create your story.";
+
+// MARK: - Coin Shop
+"coin_shop_title" = "Coin Shop";
+"coin_unit" = "Coins";
+"coin_shop_buy" = "Buy - %@";
+"coin_shop_select_package" = "Select a package";
+"coin_shop_discount" = "%d%% Off";
+
+// MARK: - Prewritten Library
+"prewritten_title" = "📚 Ready Stories";
+"stories_count" = "%d stories";
+"loading_stories" = "Loading stories...";
+"try_again" = "Try Again";
+"no_stories_found" = "No Stories Found";
+"no_stories_for_filters" = "No stories match these filters";
+"filter_all" = "All";
+"filter_clear" = "Clear";
+"filter_clear_all" = "Clear Filters";
+
+// MARK: - Character Edit
+"character_name_label" = "Name";
+"character_type_label" = "Type";
+"save_changes" = "Save Changes";
+
+// MARK: - Contact
+"contact_title" = "Contact Us";
+"contact_subtitle" = "We're happy to help you";
+"contact_response_time" = "Response time: 24-48 hours";
+"contact_select_topic" = "Select Topic";
+"contact_subject" = "Subject";
+"contact_message" = "Your Message";
+"contact_send" = "Send";
+
+// MARK: - Paywall
+"paywall_upgrade_pro" = "Upgrade to Pro";
+"paywall_go_premium" = "Go Premium";
+"paywall_more_features" = "More features and coins";
+"paywall_unlimited_stories" = "Create unlimited stories";
+"paywall_pro_features" = "Pro Features";
+"paywall_plus_features" = "Plus Features";
+"paywall_start_pro" = "Start with Pro";
+"paywall_start_plus" = "Start with Plus";
+
+// MARK: - Coin Shop
+"coin_shop_title" = "Coin Shop";
+"coin_unit" = "Coin";
+"coin_shop_buy" = "Buy - %@";
+"coin_shop_select_package" = "Select a package";
+"coin_shop_discount" = "%%%d Discount";
+"coin_purchase_success" = "Purchase Successful!";
+"coin_purchase_success_message" = "%d coins added to your account";
+"coin_purchase_error" = "Purchase Error";
+"coin_purchase_verification_failed" = "Verification failed. Please try again";
+"coin_insufficient" = "Insufficient Coins";
+"coin_insufficient_message" = "You don't have enough coins for this action. Would you like to buy more coins?";
+
+// MARK: - Purchase Processing
+"purchase_processing" = "Processing Your Purchase";
+"purchase_wait" = "Please wait, this may take a few seconds";
+
+// MARK: - Error Messages
+"error_network" = "Connection Error";
+"error_network_message" = "Check your internet connection";
+"error_network_suggestion" = "Please check your internet connection and try again";
+"examples_title" = "Example Topics";
+
+// MARK: - Onboarding
+"onboarding_skip" = "Skip";
+"onboarding_create_account" = "Create Account";
+"onboarding_already_have_account" = "Already have an account - Sign In";
+"onboarding_continue_guest" = "Continue as Guest for Now";
+
+// MARK: - Enchanted Onboarding
+"onboarding_new_page1_title" = "Welcome to the\nMagical World";
+"onboarding_new_page1_subtitle" = "AI-powered stories meet your imagination";
+"onboarding_page1_feature1" = "Generate unlimited stories with AI";
+"onboarding_page1_feature2" = "Every story is unique and personalized";
+"onboarding_page1_feature3" = "Age-appropriate content";
+
+"onboarding_new_page2_title" = "Create Your\nCharacters";
+"onboarding_new_page2_subtitle" = "Unlimited creativity for unique stories";
+"onboarding_page2_feature1" = "Easily create any character you imagine";
+"onboarding_page2_feature2" = "Save and reuse your characters";
+"onboarding_page2_feature3" = "Your own hero in every tale";
+
+"onboarding_new_page3_title" = "Listen, Read,\nExplore";
+"onboarding_new_page3_subtitle" = "Create your first story and begin the adventure";
+"onboarding_page3_feature1" = "Professional narration";
+"onboarding_page3_feature2" = "Enriched with colorful illustrations";
+"onboarding_page3_feature3" = "Illustrated story pages";
+"onboarding_page3_feature4" = "Anytime, anywhere";
+
+"onboarding_start_button" = "Let's Begin";
+
+// MARK: - My Characters
+"my_characters_title" = "My Characters";
+"character_deleted" = "Character Deleted";
+"character_deleted_message" = "%@ was successfully deleted.";
+"premium_feature" = "Premium Feature";
+"character_save_premium_message" = "Saving characters is a Plus and Pro feature. Upgrade your subscription to save characters and reuse them in your stories!";
+"character_limit" = "Character Limit";
+"character_limit_message" = "You've reached the character limit (%d). Upgrade your subscription to save more characters!";
+
+// MARK: - Character Detail
+"character_delete_title" = "Delete Character";
+"character_delete_confirm" = "Are you sure you want to delete this character?";
+"delete" = "Delete";
+"edit" = "Edit";
+"character_dna" = "🧬 Character DNA";
+"ai_generated" = "AI Generated";
+"distinctive_features" = "Distinctive Features";
+"age" = "Age";
+"description" = "Description";
+"statistics" = "Statistics";
+"used_in_stories" = "Used in Stories";
+"last_used" = "Last Used";
+"edit_character" = "Edit Character";
+
+// MARK: - Filter
+"filter_title" = "Filter";
+"filter_apply" = "Apply";
+"filter_category" = "Category";
+"filter_access_level" = "Access Level";
+
+// MARK: - Duration Picker
+"duration_story_length" = "📚 Story Length";
+"duration_extras" = "✨ Extra Features";
+"duration_total_cost" = "Total Cost";
+"duration_sufficient_balance" = "You have sufficient balance";
+"duration_insufficient_balance" = "Insufficient balance";
+"duration_balance" = "Balance: %d";
+"duration_get_coins_now" = "Get Coins Now";
+"insufficient_balance_button" = "Insufficient Balance";
+
+// MARK: - Addons
+"addon_cover_name" = "Cover Image";
+"addon_cover_desc" = "A beautiful AI-generated cover";
+"addon_audio_name" = "Narration";
+"addon_audio_desc" = "Listen to your story with AI voices";
+"addon_illustrated_name" = "Illustrated";
+"addon_illustrated_desc" = "Stunning images on every page";
+
+// MARK: - Profile Stats
+"profile_user" = "User";
+"profile_member_since" = "Member: %@";
+"profile_this_month" = "📊 This Month";
+"profile_stories" = "Stories";
+"profile_reads" = "Reads";
+"profile_characters" = "Characters";
+"profile_hours" = "Hours";
+"profile_subscription_info" = "💎 Subscription Info";
+"profile_status" = "Status";
+"profile_active" = "Active";
+"profile_manage_subscription" = "Manage Subscription";
+"profile_sign_out" = "Sign Out";
+
+// MARK: - Story Creation Step 1
+"step1_create_story" = "Create Story";
+"step1_progress" = "Step 1: Idea";
+"step1_story_idea" = "✨ What's Your Story Idea?";
+"step1_placeholder" = "Tell your story... For example:\nTwo siblings living in space discovering a new planet...";
+"step1_get_inspired" = "Get Inspired";
+"step1_select_genre" = "📚 Select Genre";
+"step1_select_tone" = "🎭 Select Tone";
+
+// MARK: - Errors
+"error_balance_load" = "Failed to load balance";
+
+// MARK: - Generating
+"generating_preparing" = "Preparing story...";
+
+// MARK: - Coin Shop Badges
+"coin_badge_popular" = "⭐ MOST POPULAR";
+"coin_badge_best_value" = "🔥 BEST VALUE";
+"coins_current_balance" = "Current Balance";
+
+// MARK: - Character Actions
+"character_delete_title" = "Delete Character";
+"character_delete_message" = "Are you sure you want to delete this character?";
+"character_new" = "New Character";
+
+// MARK: - Story Creation Step 2
+"step2_add_hero" = "Add heroes to your story";
+"step2_min_max" = "Minimum 1, Maximum %d characters";
+"step2_saved_characters" = "Saved Characters";
+"step2_no_saved" = "No saved characters yet";
+
+// MARK: - Inspiration Prompts
+"inspiration_space_adventure" = "A brave astronaut gets stranded on a mysterious planet in a distant galaxy and must befriend clever alien creatures to find a way back home";
+"inspiration_underwater" = "A little girl discovers a hidden kingdom at the bottom of the sea and embarks on an adventure with seahorses and a dolphin princess to find lost treasure";
+"inspiration_time_travel" = "A child finds a magical clock in their grandparents' attic and meets dinosaurs in the past and robots in the future, uncovering the mysteries of time";
+"inspiration_magical_forest" = "In an enchanted forest where glowing mushrooms and talking trees live, a little gnome sets out on a quest to find the lost stardust";
+"inspiration_robot_friend" = "A cute AI-powered robot becomes a child's best friend, and together they open secret doors around the city, embarking on adventures full of surprises";
+"inspiration_talking_animals" = "One morning, a child wakes up to discover all animals can talk, and with guidance from a wise owl deep in the forest, investigates a forgotten legend";
+"inspiration_pirate_treasure" = "A young explorer follows their grandfather's old map to discover a hidden island and embarks on an adventure to find the legendary pirate treasure";
+"inspiration_dragon_kingdom" = "Through a magical portal, a child reaches a kingdom ruled by dragons, befriends a young dragon, and together they fight to save the realm";
+"inspiration_superhero_school" = "An ordinary child accepted into a secret superhero school discovers their unique powers while facing a mysterious villain threatening the world";
+"inspiration_fairy_garden" = "A little girl discovers a miniature fairy village deep in the garden and helps the fairies save their magical festival";
+"inspiration_dinosaur_park" = "A child finds mysterious eggs at grandmother's farm, and together with the cute dinosaur that hatches, discovers a forgotten world";
+"inspiration_winter_wonderland" = "In a magical winter realm where snowflakes dance, a young ice skater sets out on a quest to find the lost winter princess";
+"inspiration_brave_knight" = "A small village child finds an enchanted sword and embarks on a knighthood journey, passing the kingdom's toughest trials";
+"inspiration_magical_toy" = "An old teddy bear from an antique shop comes to life at midnight and takes the child to the secret world of magical toys";
+"inspiration_cloud_city" = "Rising to the sky in a flying balloon, a child reaches a mysterious city of dream guardians above the clouds and sets out to find the lost dreams";
+"inspiration_invisible_friend" = "A small child and their mischievous but kind-hearted invisible friend, whom only they can see, save the town from a great chaos together";
+"inspiration_giant_beanstalk" = "Seeing a magical seed they planted in the garden grow into a massive beanstalk overnight, a child discovers the land of giants above the clouds";
+"inspiration_cookie_monster" = "Discovering that the cookie jar in the kitchen is actually a portal to another dimension, two siblings embark on an exciting journey through the world of sweets";
+"inspiration_moon_adventure" = "Climbing to the Moon on a silver ladder, a little girl wanders among stardust to find the Man in the Moon's lost crown";
+"inspiration_flying_carpet" = "Finding an old rug that can talk and fly, a child visits the seven wonders of the world in one night and finds a magic lamp";
+"inspiration_circus_parade" = "Toy circus animals that come to life at midnight turn the room into a giant fair, and the child prepares a magnificent show with them";
+"inspiration_jungle_safari" = "Following exotic birds that pop out from between the pages while reading a book, a child discovers that their room is actually a rainforest";
+"inspiration_mystery_museum" = "Accidentally locked in a museum during a school trip, children must help mummies and ancient heroes who come to life at midnight";
+"inspiration_ocean_discovery" = "Finding a talking seashell, a child learns the way to the lost city of Atlantis at the deepest point of the ocean";
+"inspiration_space_academy" = "A young pilot training at a space station in the future makes a brave decision to bring their ship to safety during a meteor shower";
+"inspiration_nature_guardian" = "A small child who can hear the voice of nature resolves the mysterious spell drying up the water source in the forest, saving all living things";
+"inspiration_magic_paints" = "Discovering that everything they draw while painting comes to life, a tiny artist colors the gray streets of the town with their magic brush";
+"inspiration_pet_detective" = "Setting up a 'Pet Detective' agency to find lost cats in the neighborhood, children find themselves in front of an abandoned castle while following tracks";
+"inspiration_balloon_trip" = "Traveling the world in a house lifted by thousands of balloons, an old man and a young child reach a hidden continent never seen before";
+"inspiration_castle_ghost" = "A cute and shy ghost living in an old castle becomes friends with the children who just moved in, showing them the castle's secret tunnels";
+"inspiration_rainbow_bridge" = "Discovering that at the end of the rainbow is not a treasure, but a magical factory where colors are made, a child saves the world from turning gray";
+"inspiration_toy_hospital" = "In a secret hospital where broken toys repair themselves at midnight, a child is called for help as the 'Toy Doctor'";
+"inspiration_starry_night" = "Seeing stars fall from the sky one by one, a child embarks on a sky adventure to collect them and put them back where they belong";
+"inspiration_clockwork_city" = "Venture to a mysterious robot city made of gears and steam, where a child makes a clever plan to repair the city's broken main mechanism";
+"inspiration_forgotten_island" = "Finding a secret island not on the map where fruits are made of chocolate, children save the giant turtle that is the island's protector";
+"inspiration_music_box" = "Realizing that time stops when she winds an old music box, a girl solves a big mystery by moving alone in a frozen world";
+"inspiration_dream_catcher" = "In a workshop where dreams are woven, a child who accidentally releases a nightmare dives into the world of dreams to catch it again";
+"inspiration_secret_library" = "In a secret library where books fly and talk on their own, a child goes in search of the last missing page";
+"inspiration_viking_voyage" = "A young Viking boy sneaks onto his father's ship and embarks on a long journey to find the source of the legendary Northern Lights";
+"inspiration_detective_dog" = "A dog that can talk and has a very good sense of smell prevents the town's biggest bank robbery with its little partner";
+"inspiration_science_fair" = "A child whose invention at the school science fair accidentally turns into a working time machine finds themselves in the middle of history";
+"inspiration_polar_expedition" = "Befriending penguins living at the North Pole, a child reaches the legendary ice castle through melting glaciers";
+"inspiration_mountain_legend" = "Discovering that the giants living in the high mountains are actually very kind and music-loving, a child forms a giant choir with them";
+"inspiration_enchanted_garden" = "In a garden with magical flowers that only bloom at night, a child discovers a secret passage by listening to the whispers of the flowers";
+"inspiration_space_mail" = "Helping their father who delivers interstellar mail, a child crosses the Milky Way to deliver a magic package that went to the wrong address";
+"inspiration_firefly_lantern" = "Making a lantern that lights up the darkness with the help of thousands of fireflies, a child guides travelers lost in the dark";
+"inspiration_ancient_egypt" = "Lost inside the pyramids of Ancient Egypt, a child meets a guide trying to find a way out by solving hieroglyphs";
+"inspiration_lost_continent" = "On a lost continent that suddenly appears in the middle of the ocean, a child and their friends search for the nest of the legendary phoenix";
+"inspiration_smart_city" = "In a city of the future where everything is managed by AI, a child neutralizes a naughty virus that hacked the entire system";
+"inspiration_magical_perfume" = "Finding a magic perfume that makes one invisible when applied, a child uses this power for good against school bullies";
+
+// MARK: - Genres
+"genre_bedtime" = "Bedtime";
+"genre_adventure" = "Adventure";
+"genre_family" = "Family";
+"genre_friendship" = "Friendship";
+"genre_fantasy" = "Fantasy";
+"genre_animals" = "Animals";
+"genre_princess" = "Princess";
+"genre_classic" = "Classic";
+
+// MARK: - Tones (9 tones)
+"tone_calm" = "Calm";
+"tone_exciting" = "Exciting";
+"tone_funny" = "Funny";
+"tone_cheerful" = "Cheerful";
+"tone_mysterious" = "Mysterious";
+"tone_heartwarming" = "Heartwarming";
+"tone_adventurous" = "Adventurous";
+"tone_relaxing" = "Relaxing";
+"tone_romantic" = "Romantic";
+
+// MARK: - Genres (9 genres)
+"genre_bedtime" = "Bedtime";
+"genre_adventure" = "Adventure";
+"genre_family" = "Family";
+"genre_friendship" = "Friendship";
+"genre_fantasy" = "Fantasy";
+"genre_animals" = "Animals";
+"genre_princess" = "Princess";
+"genre_classic" = "Classic";
+"genre_mystery" = "Mystery";
+
+// MARK: - Filters
+"filter_category" = "Category";
+"filter_access_level" = "Access Level";
+"filter_all" = "All";
+"filter_apply" = "Apply";
+"filter_clear" = "Clear";
+"filter_clear_all" = "Clear All Filters";
+"filter_all_stories" = "All stories";
+"filter_free" = "Free";
+"filter_free_desc" = "Accessible to everyone";
+"filter_plus" = "Plus";
+"filter_plus_desc" = "For Plus subscribers";
+"filter_pro" = "Pro";
+"filter_pro_desc" = "For Pro subscribers";
+
+// MARK: - Character Creation Step 2
+"character_title" = "Character %d";
+"character_saved" = "Saved";
+"character_save" = "Save";
+"character_name_placeholder" = "Enter character name...";
+"age_example" = "E.g. 8";
+"character_description_label" = "Description (Optional)";
+"character_description_placeholder" = "Character features...";
+"character_description_hint" = "You can describe your character's appearance and features";
+"character_gender" = "Gender";
+"character_gender_label" = "Gender";
+"character_category_family" = "Family";
+"character_category_relationships" = "Relationships";
+"character_category_people" = "People";
+"character_category_pets" = "Pets";
+"character_category_fantasy" = "Fantasy Friends";
+"character_type_title" = "Character Type";
+
+// MARK: - Character Detail
+"character_appearance" = "Appearance";
+"character_ethnicity" = "Ethnicity";
+"character_height" = "Height";
+"character_build" = "Build";
+"character_face" = "Face";
+"character_face_shape" = "Shape";
+"character_eye_color" = "Eye Color";
+"character_eye_shape" = "Eye Shape";
+"character_nose" = "Nose";
+"character_mouth" = "Mouth";
+"character_skin" = "Skin Tone";
+"character_hair" = "Hair";
+"character_hair_color" = "Color";
+"character_hair_length" = "Length";
+"character_hair_style" = "Style";
+"character_hair_texture" = "Texture";
+"character_clothing" = "Clothing";
+"character_clothing_primary" = "Primary Style";
+"character_clothing_colors" = "Color Palette";
+"character_clothing_style" = "Style";
+"character_clothing_signature" = "Signature Item";
+
+// MARK: - Story Creation Step 3
+"step3_age_range_title" = "👶 Age Range";
+"step3_age_range_subtitle" = "Which age group should the story be suitable for?";
+"step3_language_title" = "🌍 Language";
+"step3_language_subtitle" = "In which language should the story be created?";
+"step3_voice_title" = "🎙️ Voice Selection";
+"step3_voice_subtitle" = "Choose a voice for narration (if you added audio narration)";
+"step3_voice_selection" = "Voice Selection";
+"age_range_0_3" = "0-3 years";
+"age_range_4_6" = "4-6 years";
+"age_range_7_9" = "7-9 years";
+"age_range_10_12" = "10-12 years";
+"age_range_13_plus" = "13+";
+"language_turkish" = "Turkish";
+"language_english" = "English";
+"language_spanish" = "Spanish";
+"language_french" = "French";
+"language_german" = "German";
+"voice_female_1" = "🎙️ Female Voice 1";
+"voice_female_2" = "🎙️ Female Voice 2";
+"voice_male_1" = "🎙️ Male Voice 1";
+"voice_male_2" = "🎙️ Male Voice 2";
+"voice_female_1_desc" = "Soft and calm";
+"voice_female_2_desc" = "Energetic and cheerful";
+"voice_male_1_desc" = "Deep and relaxing";
+"voice_male_2_desc" = "Lively and exciting";
+
+// MARK: - Duration Picker
+"duration_text_with_name" = "Text (%@)";
+"duration_cover_image" = "Cover Image";
+"duration_audio_with_minutes" = "Audio Narration (%d min)";
+"duration_illustrations_with_count" = "Illustrations (%d)";
+"duration_minutes_with_value" = "%d min";
+"duration_words_with_value" = "~%d words";
+"addon_pro_badge" = "PRO";
+
+// MARK: - Story Result
+"result_story_ready" = "Story Ready!";
+"result_congratulations_message" = "Congratulations! Your story has been created";
+"result_reading_time" = "Happy reading!";
+"result_illustrated" = "Illustrated";
+"result_with_audio" = "Audio";
+"result_read_now" = "Read Now";
+"result_share" = "Share";
+"result_create_another" = "New Story";
+"stat_pages" = "Pages";
+"stat_minutes" = "min";
+"stat_illustrations" = "Images";
+"stat_audio_available" = "✓";
+
+// MARK: - Template Gallery & Detail
+"template_gallery_title" = "Template Gallery";
+"template_search_placeholder" = "Search templates...";
+"minutes_short_text" = "min";
+"template_generating_message" = "Your template story is being prepared...";
+"template_step_preview" = "Preview";
+"template_step_characters" = "Characters";
+"template_step_options" = "Options";
+"template_age_toddler" = "2-4 years";
+"template_age_preschool" = "4-6 years";
+"template_age_young" = "5-8 years";
+"template_age_middle" = "8-12 years";
+"template_age_all" = "All ages";
+"template_generating" = "Generating...";
+
+// MARK: - Library
+"library_guest_my_stories_title" = "See Your Stories Here";
+"library_guest_my_stories_message" = "All your created stories are stored here. Sign in or create a new account to get started.";
+"library_guest_favorites_title" = "Save Your Favorites";
+"library_guest_favorites_message" = "Add stories you like to your favorites to easily access them again.";
+
+// Library Filters
+"library_filter_all" = "All";
+"library_filter_all_stories" = "All stories";
+"library_filter_free" = "Free";
+"library_filter_free_desc" = "Accessible to everyone";
+"library_filter_plus" = "Plus";
+"library_filter_plus_desc" = "For Plus subscribers";
+"library_filter_pro" = "Pro";
+"library_filter_pro_desc" = "For Pro subscribers";
+
+// MARK: - Template Category Filters
+"filter_all" = "All";
+"category_bedtime" = "Bedtime";
+"category_adventure" = "Adventure";
+"category_family" = "Family";
+"category_friendship" = "Friendship";
+"category_fantasy" = "Fantasy";
+"category_animals" = "Animals";
+"category_princess" = "Princess";
+"category_classic" = "Classic";
+"continue_in_background" = "Continue in Background";
+"loading_image" = "Loading image...";
+
+// MARK: - Story Duration Names & Descriptions
+"duration_quick_name" = "Quick Story";
+"duration_quick_desc" = "Perfect for a quick bedtime story";
+"duration_standard_name" = "Standard Story";
+"duration_standard_desc" = "The classic story length";
+"duration_extended_name" = "Extended Story";
+"duration_extended_desc" = "For more detailed adventures";
+"duration_epic_name" = "Epic Story";
+"duration_epic_desc" = "An immersive storytelling experience";
+"duration_most_popular_badge" = "Most Popular";
+
+// MARK: - Addon Names & Descriptions
+"addon_cover_name" = "Cover Image";
+"addon_cover_desc" = "AI-generated cover";
+"addon_audio_name" = "Audio Narration";
+"addon_audio_desc" = "Text-to-speech narration";
+"addon_illustrated_name" = "Illustrated Story";
+"addon_illustrated_desc" = "AI-generated scene illustrations";
+
+// MARK: - Additional Genre Types
+"genre_science" = "Science";
+"genre_space" = "Space";
+"genre_nature" = "Nature";
+"genre_ocean" = "Ocean";
+"genre_forest" = "Forest";
+
+// MARK: - Story Generation Steps
+"story_gen_initializing" = "Initializing...";
+"story_gen_writing" = "Writing story...";
+"story_gen_audio" = "Adding audio...";
+"story_gen_cover" = "Creating cover image...";
+"story_gen_finalizing" = "Finalizing...";
+"story_gen_completed" = "Story ready!";
+"story_gen_failed" = "Error occurred";
+
+// Modern Generating
+"story_creating_magic" = "Creating your story...";
+"estimated_time" = "This may take about %d minutes";
+"notification_enable_and_continue" = "Enable Notifications & Continue";
+"continue_in_background" = "Continue in Background";
+"generating_story" = "Creating Story";
+"story_generating" = "Story is being created...";
+"story_generating_background" = "You can continue in the background";
+"story_generating_background_message" = "Your story is being generated in the background. You will see it in your library when it's ready.";
+"story_loading_error" = "There was a problem loading the story";
+"pdf_generating" = "Generating PDF...";
+"share" = "Share";
+"share_error_title" = "Share Error";
+"share_error_message" = "There was a problem preparing the files. Please try again";
+
+// MARK: - Magical Generating View
+"generating_characters_animating" = "Characters Coming to Life...";
+"generating_adventure_forming" = "Adventure Taking Shape...";
+"generating_magic_touches" = "Adding Magical Touches...";
+"generating_images_creating" = "Creating Images...";
+"generating_final_touches" = "Final Touches...";
+"generating_dont_wait" = "Don't want to wait? Enable notifications";
+"generating_get_notification" = "Get Notification";
+"generating_imagination_working" = "✨ Your imagination is working...";
+"generating_colors_alive" = "🎨 Colors are coming alive...";
+"generating_words_dancing" = "📖 Words are dancing...";
+"generating_magic_happening" = "✨ Magic is happening...";
+"generating_owl_working" = "🦉 Our owl is working...";
+"generating_adventure_shaping" = "💫 Adventure is taking shape...";
+"generating_characters_alive" = "🎭 Characters are coming alive...";
+"generating_worlds_creating" = "🌈 Worlds are being created...";
+
+// MARK: - Mode Toggle
+"mode_reading" = "Reading";
+"mode_listening" = "Listening";
+
+// MARK: - Story Reader Header
+"minutes_abbreviation" = "min";
+
+// MARK: - Web Content
+"web_content_failed" = "Content failed to load";
+"web_content_try_later" = "Please try again later";
+
+// MARK: - Settings Debug
+"debug_test_notification" = "Test Notification";
+"debug_clear_notifications" = "Clear All Notifications";
+
+// MARK: - Login Errors
+"login_error_guest_continue" = "Could not continue as guest: %@";
+"login_creating_account" = "Creating Account...";
+"login_signing_in" = "Signing In...";
+
+// MARK: - Coin Modal Pricing
+"coins_monthly_amount" = "%@ coins / month";
+"coins_price_monthly" = "$%@/mo";
+
+// MARK: - Contact Categories
+"contact_category_general" = "General Question";
+"contact_category_technical" = "Technical Support";
+"contact_category_billing" = "Billing and Payment";
+"contact_category_feedback" = "Feedback";
+"contact_category_other" = "Other";
+"contact_subject_placeholder" = "Subject";
+"contact_app_version" = "App: DreamSpire v%@";
+"contact_title" = "Contact Us";
+
+// MARK: - Profile Menu
+"profile_plan_suffix" = " Plan";
+"profile_yearly_suffix" = " Yearly";
+"profile_my_characters" = "My Characters";
+"profile_my_favorites" = "My Favorites";
+"profile_help_support" = "Help & Support";
+"profile_about" = "About";
+"profile_sign_out" = "Sign Out";
+
+// MARK: - Paywall
+"paywall_restore_purchases" = "Restore Purchases";
+"paywall_auto_renew" = "Subscription auto-renews • Cancel anytime";
+"paywall_monthly_badge" = "MONTHLY";
+"paywall_yearly_badge" = "YEARLY";
+"paywall_monthly" = "Monthly";
+"paywall_yearly" = "Yearly";
+"paywall_yearly_savings" = "2 months free";
+"paywall_per_month" = "/ month";
+"paywall_per_year" = "/ year";
+"paywall_select_button" = "SELECT";
+
+// Pro Features
+"paywall_pro_coins" = "10,000 tokens / month";
+"paywall_pro_stories" = "50+ pre-written stories (Continuously added)";
+"paywall_illustrated_stories" = "Illustrated stories";
+"paywall_premium_voices" = "Premium voice options";
+"paywall_unlimited_characters" = "Unlimited saved characters";
+"paywall_coin_discount" = "15% token discount";
+"paywall_buy_coins" = "Buy tokens";
+"paywall_pdf_export" = "PDF export";
+
+// Plus Features
+"paywall_plus_coins" = "4,000 tokens / month";
+"paywall_plus_stories" = "Access to 30 pre-written stories";
+"paywall_plus_characters" = "Save 10 characters";
+"paywall_plus_prewritten" = "Access to 30 pre-written stories";
+
+// Legal Links
+"paywall_terms" = "Terms of Use";
+"paywall_privacy" = "Privacy Policy";
+
+// NEW: Inline Pricing
+"paywall_savings_badge" = "2 MONTHS FREE!";
+"paywall_or_monthly" = "or monthly";
+"paywall_month_short" = "mo";
+"paywall_yearly_short" = "Yearly";
+"paywall_monthly_short" = "Monthly";
+"paywall_most_popular" = "MOST POPULAR";
+"paywall_yearly_start" = "Start Yearly";
+"paywall_selected" = "SELECTED";
+"paywall_monthly_start" = "Start Monthly";
+"paywall_yearly_option" = "Yearly Option";
+"paywall_continue" = "Continue";
+
+// MARK: - Language Names
+"language_name_turkish" = "Turkish";
+"language_name_english" = "English";
+"language_name_french" = "French";
+"language_name_german" = "German";
+"language_name_spanish" = "Spanish";
+
+// MARK: - Subscription Features
+"subscription_feature_monthly_stories" = "Monthly Stories";
+"subscription_feature_characters_per_story" = "Characters/Story";
+"subscription_feature_saved_characters" = "Saved Characters";
+"subscription_feature_prewritten_stories" = "Prewritten Stories";
+"subscription_feature_illustrations" = "Illustrations";
+"subscription_feature_premium_voices" = "Premium Voices";
+"subscription_feature_pdf_export" = "PDF Export";
+"subscription_feature_unlimited" = "Unlimited";
+"subscription_feature_all" = "All";
+"subscription_plan_label" = "Plan";
+"subscription_price_label" = "Price";
+"subscription_renewal_label" = "Renewal";
+"subscription_recommended" = "RECOMMENDED";
+
+// MARK: - FAQ
+"faq_title" = "Frequently Asked Questions";
+
+// FAQ Categories
+"faq_category_account" = "Account";
+"faq_category_stories" = "Stories";
+"faq_category_characters" = "Characters";
+"faq_category_subscription" = "Membership & Payments";
+"faq_category_technical" = "Technical";
+
+// Account Questions
+"faq_account_q1" = "How do I create my account?";
+"faq_account_a1" = "Simply enter your email address and password to sign in to DreamSpire. Your account will be created automatically.";
+"faq_account_q2" = "I forgot my password, what should I do?";
+"faq_account_a2" = "Click on 'Forgot Password' on the login screen. A password reset link will be sent to your email address.";
+"faq_account_q3" = "How can I delete my account?";
+"faq_account_a3" = "To delete your account, please contact our support team through Settings > Contact Us.";
+
+// Stories Questions
+"faq_stories_q1" = "How do I create a story?";
+"faq_stories_a1" = "Tap the 'New Story' button on the home screen. Define characters, select a story genre, and let DreamSpire create a personalized story for you.";
+"faq_stories_q2" = "How can I save my stories?";
+"faq_stories_a2" = "All your created stories are automatically saved in the 'My Stories' section. You can return to them anytime.";
+"faq_stories_q3" = "How does the audio story feature work?";
+"faq_stories_a3" = "Enable the 'Audio Narration' option when creating a story. DreamSpire will narrate your story with a professional voice.";
+"faq_stories_q4" = "Can I share my story?";
+"faq_stories_a4" = "Yes! Use the share button on the story detail screen to share your story with family and friends.";
+
+// Characters Questions
+"faq_characters_q1" = "How do I create a character?";
+"faq_characters_a1" = "Define characters when creating a story. Add details like name, age, and interests to create more personalized stories.";
+"faq_characters_q2" = "Can I save my characters?";
+"faq_characters_a2" = "Yes! You can save your created characters and reuse them in future stories.";
+"faq_characters_q3" = "How many characters can I add?";
+"faq_characters_a3" = "You can add up to 5 characters per story. Adding more characters may require Pro membership.";
+
+// Subscription Questions
+"faq_subscription_q1" = "What are the membership options?";
+"faq_subscription_a1" = "DreamSpire offers 3 membership tiers: Free, Plus, and Pro. Each tier includes different features and story limits.";
+"faq_subscription_q2" = "How does the coin system work?";
+"faq_subscription_a2" = "Coins are used to create stories. Free users receive limited coins, while Plus and Pro members get more coins and monthly renewal benefits.";
+"faq_subscription_q3" = "How can I cancel my membership?";
+"faq_subscription_a3" = "You can cancel your DreamSpire subscription through iOS Settings > Apple ID > Subscriptions.";
+"faq_subscription_q4" = "How do I purchase coins?";
+"faq_subscription_a4" = "You can purchase different coin packages from Settings > Buy Coins. Payments are securely processed through Apple Pay.";
+
+// Technical Questions
+// Offline mode temporarily disabled
+// "faq_technical_q1" = "Does the app work offline?";
+// "faq_technical_a1" = "An internet connection is required to create stories. However, you can read previously created stories offline.";
+"faq_technical_q2" = "Which devices does it work on?";
+"faq_technical_a2" = "DreamSpire works on iOS 16.0 and higher. You can use it on iPhone and iPad devices.";
+"faq_technical_q3" = "Is my data secure?";
+"faq_technical_a3" = "Yes! All your data is stored encrypted and never shared with third parties. Please review our Privacy Policy for details.";
+
+// MARK: - Story Result
+"story_result_save_characters" = "Save Characters";
+"story_result_save_characters_description" = "Save the characters used in this story to use them again next time";
+
+// MARK: - Story Creation Flow
+"story_creation_already_in_progress" = "A story is already being created.";
+"story_creation_already_in_progress_detail" = "A story is already being created. You can see your ongoing story in the library.";
+
+// MARK: - Failed Story Card
+"failed_story_creation_failed" = "Creation Failed";
+"failed_story_coin_refunded" = "Coins refunded";
+"failed_story_retry" = "Try Again";
+"failed_story_remove" = "Remove";
+
+// MARK: - Audio Mode
+"audio_mode_file_not_found" = "Audio File Not Found";
+"audio_mode_no_audio_message" = "No audio file has been created for this story yet";
+
+// MARK: - Story Reader Enhancements
+"age_range_0_3" = "0-3 years";
+"age_range_3_5" = "3-5 years";
+"age_range_4_6" = "4-6 years";
+"age_range_6_8" = "6-8 years";
+"age_range_7_9" = "7-9 years";
+"age_range_9_12" = "9-12 years";
+"age_range_10_12" = "10-12 years";
+"age_range_13_plus" = "13+";
+"tone_calm_title" = "Calm";
+"tone_funny_title" = "Funny";
+"tone_adventure_title" = "Adventure";
+"tone_educational_title" = "Educational";
+"reader_finished_title" = "Congratulations!";
+"reader_finished_message" = "You've finished the story!";
+"reader_reading_stats" = "Reading Stats";
+"reader_pages_read" = "%d pages read";
+"reader_minutes_suffix_short" = "min";
+
+// MARK: - Safety & FAQ
+"faq_category_safety" = "Safety & Filtering";
+"faq_safety_q1" = "How can I be sure my child won't see inappropriate content?";
+"faq_safety_a1" = "DreamSpire uses a dual-layer protection system called 'Double Steel Armor'. The first layer is a professional filter containing thousands of prohibited words. The second layer uses the OpenAI Moderation API to analyze every sentence for intent and block inappropriate content instantly.";
+"faq_safety_q2" = "Is AI always safe?";
+"faq_safety_a2" = "Despite our advanced filters, AI can sometimes produce unexpected results. Therefore, we recommend using the app under parental supervision and exploring it together with your child.";
+"faq_safety_q3" = "Which languages are protected?";
+"faq_safety_a3" = "Our content moderation system is optimized to work seamlessly across all 12 supported languages, including English, Turkish, French, German, and Spanish.";
+"faq_safety_q4" = "What should I do if I notice something inappropriate?";
+"faq_safety_a4" = "You can report it instantly using the 'Contact Us' button in the Settings menu or by emailing dreamspire.help@gmail.com. Your feedback helps us make our system even stronger.";
+"filter_illustrated_only" = "Illustrated Only";
+"filter_illustrated_desc" = "Show only stories with illustrations";
+"filter_apply" = "Apply";
+
+// MARK: - Template Character Roles
+"template_role_child" = "Child";
+"template_role_parent" = "Parent";
+"template_role_sibling" = "Sibling";
+"template_role_friend" = "Friend";
+"template_role_princess" = "Princess";
+"template_role_fairy" = "Fairy";
+"template_role_grandma" = "Grandma";
+"template_role_alien" = "Alien Friend";
+"template_role_animal" = "Forest Friend";
+"template_role_astronaut" = "Astronaut";
+"template_role_baby" = "Baby";
+"template_role_classmate" = "Classmate";
+"template_role_companion" = "Bedtime Companion";
+"template_role_diver" = "Diver";
+"template_role_dragon" = "Dragon";
+"template_role_helper" = "Helper";
+"template_role_hero" = "Hero";
+"template_role_mentor" = "Mentor";
+"template_role_mermaid" = "Mermaid";
+"template_role_pet" = "Pet";
+"template_role_robot" = "Robot Friend";
+"template_role_older_sibling" = "Older Sibling";
+"template_role_younger_sibling" = "Younger Sibling";
+
+// MARK: - Network & Offline
+"no_internet_title" = "No Internet Connection";
+"no_internet_message" = "Connect to the internet to use DreamSpire";
+"no_internet_splash_message" = "DreamSpire requires an active internet connection. Please check your network and try again.";
+"exit_app" = "Exit App";
+"waiting_for_internet" = "Waiting for Internet Connection...";
+"retry_attempt" = "Retry attempt";
+"no_internet_final_message" = "Could not connect to the internet after 5 attempts. Please check your connection and try again.";
+
+// MARK: - Alerts
+"alert_welcome_back" = "Welcome back!";
+"alert_account_linked" = "Account linked successfully!";
+"coins_count_format" = "%d coins";
+
+// MARK: - Fixes
+"transaction_reason_abuse_prevention" = "Device Limit Reached";
+"settings_pro_unlock" = "Unlock Pro";
+"paywall_continue" = "Continue";

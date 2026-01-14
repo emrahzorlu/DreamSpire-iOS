@@ -1,0 +1,1483 @@
+/* 
+  Localizable.strings (Turkish)
+  DreamSpire
+  
+  Turkish localization - Base language
+*/
+
+// MARK: - Common
+"app_name" = "DreamSpire";
+"ok" = "Tamam";
+"cancel" = "İptal";
+"done" = "Bitti";
+"save" = "Kaydet";
+"delete" = "Sil";
+"edit" = "Düzenle";
+"close" = "Kapat";
+"back" = "Geri";
+"next" = "İleri";
+"continue" = "Devam Et";
+"retry" = "Tekrar Dene";
+"loading" = "Yükleniyor...";
+"error" = "Hata";
+"success" = "Başarılı";
+"warning" = "Uyarı";
+"info" = "Bilgi";
+"yes" = "Evet";
+"no" = "Hayır";
+"search" = "Ara";
+"filter" = "Filtrele";
+"sort" = "Sırala";
+"all" = "Tümü";
+"none" = "Hiçbiri";
+"select" = "Seç";
+"required" = "Zorunlu";
+"optional" = "İsteğe Bağlı";
+
+// MARK: - Tab Bar
+"tab_home" = "Ana Sayfa";
+"tab_create" = "Oluştur";
+"tab_library" = "Kütüphane";
+"tab_settings" = "Ayarlar";
+
+// MARK: - Home Screen
+"home_welcome" = "Merhaba, %@";
+"home_welcome_guest" = "DreamSpire'a hoş geldin!";
+"user_name_default" = "Rüya Gezgini";
+"home_my_stories" = "📚 Hikayelerim";
+"home_see_all" = "Hepsini Gör";
+"home_no_stories" = "Henüz Hikaye Yok";
+"home_no_stories_subtitle" = "İlk hikayeni oluştur ve burada gör";
+"home_create_story" = "Hikaye Oluştur";
+"home_popular_classics" = "🎭 Popüler Klasikler";
+"home_animal_stories" = "🦊 Hayvan Hikayeleri";
+"home_adventure_stories" = "🚀 Macera Hikayeleri";
+"home_quick_stories" = "Hızlı Hikayeler";
+"home_quick_stories_emoji" = "⚡ Hızlı Hikayeler";
+"home_unlimited_stories" = "Sınırsız Hikaye";
+"home_explore_imagination" = "Hayal gücünün sınırlarını keşfet";
+"home_upgrade_plus" = "Plus'a Geç";
+"premium_banner_title_line1" = "Sınırsız Hikaye";
+"premium_banner_title_line2" = "Dünyası";
+"premium_banner_benefit_audio" = "Sesli anlatım";
+"premium_banner_benefit_images" = "Görselli hikayeler";
+"guest_user" = "Misafir Kullanıcı";
+"premium_banner_cta" = "Şimdi Yükselt";
+"home_create_your_story" = "Kendi hikayeni yarat";
+"home_from_templates" = "Şablonlardan seç";
+"home_story_ready" = "Hikaye Hazır!";
+"home_test_success" = "Test başarılı";
+
+// MARK: - Story Creation
+"create_step1_title" = "Hikaye Fikri";
+"create_step2_title" = "Karakterler";
+"create_step3_title" = "Detaylar";
+"create_step4_title" = "Uzunluk & Özellikler";
+"create_story_idea" = "Hikaye fikrin nedir?";
+"create_story_idea_placeholder" = "Örnek: Küçük bir kedi uzaya gidiyor...";
+"create_genre" = "Tür";
+"create_tone" = "Ton";
+"create_generating" = "Hikaye Oluşturuluyor";
+"create_characters_coming" = "Karakterler canlandırılıyor...";
+"create_adventure_forming" = "Macera şekilleniyor...";
+"create_magic_touches" = "Sihirli dokunuşlar ekleniyor...";
+"create_images_creating" = "Görseller oluşturuluyor...";
+"create_preparing" = "Hikaye hazırlanıyor...";
+"create_writing" = "Hikaye yazılıyor...";
+"create_audio_generating" = "Ses kaydı oluşturuluyor... 🎙️";
+"create_images_generating" = "Görseller çiziliyor... 🎨";
+"create_final_touches" = "Son rötuşlar yapılıyor...";
+"create_almost_ready" = "Neredeyse hazır...";
+
+// MARK: - Notifications
+"notification_story_ready_title" = "Hikaye Hazır! 📖";
+"notification_story_ready_body" = "\"%@\" hikayesi oluşturuldu. Şimdi okuyabilirsin!";
+"notification_wait_message" = "Hikaye oluşturulurken beklemek istemiyorsan";
+"notification_enable" = "Bildirim Ver ve Çık";
+
+// MARK: - Generating Story Card
+"generating_story_message" = "Hikaye oluşturuluyor...";
+"view_details" = "Detaylar";
+
+// MARK: - Characters
+"character_title" = "Karakter %d";
+"main_character_badge" = "Ana Karakter";
+"character_add" = "Karakter Ekle";
+"character_name" = "İsim";
+"character_name_placeholder" = "İsim gir";
+"character_age" = "Yaş";
+"character_age_placeholder" = "Yaş";
+"character_age_optional" = "Yaş (isteğe bağlı)";
+"character_description_optional" = "Açıklama (isteğe bağlı)";
+"character_type" = "Karakter Tipi";
+"character_save" = "Kaydet";
+"character_saved" = "Kaydedildi";
+"character_my_characters" = "Karakterlerim";
+"character_saved_characters" = "Kayıtlı Karakterler";
+"character_select_saved" = "Kayıtlı Karakterlerimden Seç";
+"character_count" = "%d karakter";
+"character_used_in" = "%d hikayede kullanıldı";
+"character_save_success" = "Karakter Kaydedildi!";
+"character_save_success_message" = "%@ başarıyla kaydedildi.";
+"character_save_removed" = "Kayıt Kaldırıldı";
+"character_save_removed_message" = "%@ kayıtlı karakterlerden çıkarıldı.";
+"character_save_failed" = "Kaydetme Başarısız";
+"character_save_failed_message" = "Karakter kaydedilemedi. Lütfen tekrar dene.";
+"character_never_used" = "Henüz hikayede kullanılmadı";
+
+// MARK: - Character Types
+"character_type_child" = "Çocuk";
+"character_type_teen" = "Genç";
+"character_type_adult" = "Yetişkin";
+"character_type_mother" = "Anne";
+"character_type_father" = "Baba";
+"character_type_sibling" = "Kardeş";
+"character_type_grandmother" = "Büyükanne";
+"character_type_grandfather" = "Büyükbaba";
+"character_type_dog" = "Köpek";
+"character_type_cat" = "Kedi";
+"character_type_bird" = "Kuş";
+"character_type_horse" = "At";
+"character_type_rabbit" = "Tavşan";
+"character_type_other_pet" = "Diğer Hayvan";
+
+// MARK: - Character Relationships
+"character_relationship_none" = "Belirtilmemiş";
+"character_relationship_friend" = "Arkadaş";
+"character_relationship_partner" = "Partner";
+"character_relationship_family" = "Aile Üyesi";
+"character_relationship_title" = "İlişki (İsteğe Bağlı)";
+"character_relationship_hint" = "Bu karakter hikaye kahramanıyla nasıl bir ilişkide?";
+
+// MARK: - Character Categories
+"character_category_people" = "İnsanlar";
+"character_category_pets" = "Hayvanlar";
+
+// MARK: - Character Genders
+"character_gender_male" = "Erkek";
+"character_gender_female" = "Kadın";
+"character_gender_unspecified" = "Belirtilmemiş";
+"character_gender" = "Cinsiyet";
+
+// MARK: - Story Details
+"details_age_range" = "👶 Yaş Aralığı";
+"details_age_range_subtitle" = "Hikaye hangi yaş grubuna uygun olsun?";
+"details_language" = "🌍 Dil";
+"details_language_subtitle" = "Hikaye hangi dilde oluşturulsun?";
+"details_voice" = "🎙️ Ses Seçimi";
+"details_voice_subtitle" = "Sesli anlatım için ses tonunu seç";
+"details_age_0_3" = "0-3 yaş";
+"details_age_4_6" = "4-6 yaş";
+"details_age_7_9" = "7-9 yaş";
+"details_age_10_12" = "10-12 yaş";
+"details_age_13_plus" = "13+";
+
+// MARK: - Duration & Addons
+"duration_title" = "Uzunluk & Özellikler";
+"duration_quick" = "Kısa";
+"duration_standard" = "Standart";
+"duration_extended" = "Uzun";
+"duration_epic" = "Epik";
+"duration_minutes" = "%d dk";
+"addon_audio" = "Sesli Anlatım";
+"addon_audio_subtitle" = "Hikaye sesli okunarak anlatılsın";
+"addon_cover" = "Kapak Görseli";
+"addon_cover_subtitle" = "Hikaye için kapak resmi oluştursun";
+"addon_illustrated" = "Resimli Hikaye";
+
+// MARK: - Story Options (Template)
+"options_title" = "Hikaye Seçenekleri";
+"options_total_cost" = "Toplam Maliyet";
+"options_sufficient_balance" = "Yeterli bakiye";
+"options_insufficient_balance" = "Yetersiz bakiye";
+"options_balance" = "Bakiye: %d";
+"options_generate" = "Hikaye Oluştur";
+
+// MARK: - Templates
+"template_preview" = "Önizleme";
+"template_characters" = "Karakterler";
+"template_options" = "Seçenekler";
+"template_add_characters" = "Karakterlerini Ekle";
+"template_generating" = "Şablon hikayen hazırlanıyor...";
+"template_category_all" = "Tümü";
+"template_category_adventure" = "Macera";
+"template_category_family" = "Aile";
+"template_category_fantasy" = "Fantastik";
+"template_category_animals" = "Hayvanlar";
+"template_category_educational" = "Eğitici";
+"template_category_bedtime" = "Uyku Vakti";
+"template_category_friendship" = "Dostluk";
+"template_category_nature" = "Doğa";
+"template_category_princess" = "Prenses";
+"template_category_classic" = "Klasik";
+"story_default_title" = "Hikaye";
+"character_name_placeholder" = "%@ ismini gir...";
+
+// MARK: - Genres
+"genre_adventure" = "Macera";
+"genre_fantasy" = "Fantezi";
+"genre_comedy" = "Komedi";
+"genre_mystery" = "Gizem";
+"genre_educational" = "Eğitici";
+"genre_fairytale" = "Masal";
+"genre_scifi" = "Bilim Kurgu";
+"genre_animal" = "Hayvan";
+"genre_bedtime" = "Uyku Vakti";
+"genre_family" = "Aile";
+"genre_friendship" = "Arkadaşlık";
+"genre_animals" = "Hayvanlar";
+"genre_princess" = "Prenses";
+"genre_classic" = "Klasik";
+
+// MARK: - Tones
+"tone_exciting" = "Heyecanlı";
+"tone_calm" = "Sakin";
+"tone_funny" = "Komik";
+"tone_mysterious" = "Gizemli";
+"tone_heartwarming" = "Duygusal";
+"tone_adventurous" = "Maceracı";
+"tone_fun" = "Eğlenceli";
+"tone_suspenseful" = "Gerilimli";
+"tone_inspiring" = "İlham Verici";
+"tone_romantic" = "Romantik";
+"tone_emotional" = "Duygusal";
+
+// MARK: - Library
+"library_title" = "Kütüphane";
+"library_my_stories" = "Hikayelerim";
+"library_favorites" = "Favorilerim";
+"library_empty" = "Henüz hikaye yok";
+"library_empty_favorites" = "Henüz favori hikaye yok";
+"library_empty_subtitle" = "İlk hikayeni oluşturmaya başla!";
+"library_start_creating" = "Hikaye Oluştur";
+
+// Short tab titles (single line, no emojis)
+"library_tab_stories" = "Hikayeler";
+"library_tab_favorites" = "Favoriler";
+"library_tab_prewritten" = "Hazır";
+
+// Time formatting
+"min_suffix" = "dk";
+
+// MARK: - Story Reader
+"reader_page" = "Sayfa %d/%d";
+"reader_listen" = "Dinle";
+"reader_stop" = "Durdur";
+"reader_favorite" = "Favorilere Ekle";
+"reader_unfavorite" = "Favorilerden Çıkar";
+"reader_share" = "Paylaş";
+"reader_delete" = "Sil";
+"settings_restore_purchases" = "Satın Almaları Geri Yükle";
+"settings_restore_success" = "Satın alımlarınız başarıyla geri yüklendi.";
+"settings_success_title" = "Başarılı";
+"settings_error_title" = "Hata";
+"restore_success_message" = "Abonelikleriniz başarıyla geri yüklendi.";
+"restore_error_message" = "Satın alımlar geri yüklenemedi. Lütfen tekrar deneyin.";
+"paywall_success_title" = "Başarılı";
+"paywall_error_title" = "Hata";
+"reader_delete_confirm" = "Bu hikayeyi silmek istediğine emin misin?";
+"reader_delete_success" = "Hikaye silindi";
+
+// MARK: - Settings
+"settings_title" = "Ayarlar";
+"settings_content" = "İçerik";
+"settings_my_characters" = "Karakterlerim";
+"settings_characters_locked" = "Plus veya Pro ile kilidi aç";
+"upgrade" = "Yükselt";
+"settings_my_stories" = "Hikayelerim";
+"settings_my_favorites" = "Favorilerim";
+"settings_prewritten_stories" = "Hazır Hikayeler";
+"settings_preferences" = "Tercihler";
+"settings_notifications" = "Bildirimler";
+"settings_language" = "Dil";
+"settings_theme" = "Tema";
+"settings_support" = "Destek";
+"settings_faq" = "Sık Sorulan Sorular";
+"settings_contact" = "Bize Ulaşın";
+"settings_copy_email_success_title" = "Kopyalandı";
+"settings_copy_email_success_message" = "E-posta adresi panoya kopyalandı";
+"settings_copy_email_long_press" = "E-posta Adresini Kopyala";
+"settings_rate_app" = "Uygulamayı Değerlendir";
+"settings_legal" = "Yasal";
+"settings_terms" = "Kullanım Koşulları";
+"settings_privacy" = "Gizlilik Politikası";
+"settings_version" = "Versiyon";
+"settings_sign_out" = "Çıkış Yap";
+"settings_sign_out_title" = "Çıkış Yap";
+"settings_sign_out_message" = "Hesabından çıkış yapmak istediğine emin misin?";
+"settings_sign_out_confirm" = "Çıkış Yap";
+"settings_sign_out_cancel" = "Vazgeç";
+"settings_delete_account" = "Hesabı Sil";
+"settings_delete_account_title" = "Hesabı Sil";
+"settings_delete_account_message" = "Hesabını silmek istediğinden emin misin? Bu işlem geri alınamaz ve tüm verileriniz kalıcı olarak silinecektir.";
+"settings_delete_account_confirm" = "Evet, Sil";
+"settings_delete_account_cancel" = "İptal";
+"settings_login_register" = "Giriş Yap / Kayıt Ol";
+"settings_login_subtitle" = "Hikayelerini ve satın almalarını koru";
+"settings_tap_to_login" = "Giriş yapmak için dokun";
+"settings_unlock_premium" = "Premium'a Yükselt 👑";
+"settings_premium_subtitle" = "Sınırsız hikaye, özel karakterler ve daha fazlası";
+"settings_premium_unlock" = "Premium'un";
+
+// Splash Screen
+"splash_tagline" = "Hikayeler Canlanıyor";
+
+"settings_premium_benefits" = "Gücünü Keşfet ✨";
+"settings_benefit_audio" = "Sesli Okuma";
+"settings_benefit_images" = "Resimli Hikaye";
+"settings_upgrade_now" = "Hemen Yükselt";
+"settings_pro_unlock" = "Resimli Hikayelerin Kilidini Aç";
+"settings_pro_illustrated" = "Her sayfada büyüleyici görseller";
+"coinshop_pro_title" = "Resimli Hikayeleri Aç";
+"coinshop_pro_subtitle" = "Pro ile büyüleyici görseller";
+"settings_account_deleted" = "Hesabın başarıyla silindi.";
+"pro_upgrade_limited_chars" = "Karakter Limitine Ulaşıldı";
+"pro_upgrade_unlimited_chars_message" = "Plus ile en fazla 10 karakter kaydedebilirsiniz. Pro'ya yükselterek sınırsız karakter oluşturabilir ve hikayelerinizi resimlerle canlandırabilirsiniz!";
+
+// MARK: - Theme
+"theme_light" = "Açık";
+"theme_dark" = "Koyu";
+"theme_auto" = "Otomatik";
+
+// MARK: - Profile
+"profile_guest" = "Misafir Kullanıcı";
+"profile_user" = "Kullanıcı";
+"profile_save_data" = "Kayıt olarak verilerini sakla";
+"profile_name_placeholder" = "İsim";
+
+// MARK: - Subscription
+"subscription_title" = "Üyelik";
+"subscription_coin_balance" = "COIN BAKİYESİ";
+"subscription_membership" = "ÜYELİK";
+"subscription_load" = "Yükle";
+"subscription_upgrade" = "Yükselt";
+"subscription_free" = "Ücretsiz";
+"subscription_plus" = "Plus";
+"subscription_pro" = "Pro";
+"subscription_status_active" = "Aktif";
+"subscription_status_inactive" = "Aktif Değil";
+"subscription_status_canceled" = "İptal Edildi";
+"subscription_status_expired" = "Süresi Doldu";
+"subscription_status_past_due" = "Ödeme Bekliyor";
+"subscription_status_trial" = "Deneme";
+"subscription_interval_month" = "Aylık";
+"subscription_interval_year" = "Yıllık";
+
+// PDF Export
+"pdf_cover_created_by" = "✨ DreamSpire ile Oluşturuldu ✨";
+"pdf_cover_tagline" = "Hayal gücünüzü hikayeye dönüştürün";
+"pdf_cover_pages" = "Sayfa";
+"pdf_cover_minutes" = "dk";
+// MARK: - Coins
+"coins_shop" = "Coin Mağazası";
+"coins_balance" = "Bakiye";
+"coins_buy" = "Satın Al";
+"coins_history" = "İşlem Geçmişi";
+"coins_insufficient" = "Yetersiz Coin";
+"coins_insufficient_message" = "Bu işlem için yeterli coin'in yok.";
+"coins_purchase" = "Coin Satın Al";
+
+// MARK: - Notifications
+"notification_title" = "Bildirimler";
+"notification_enable_message" = "Yeni hikayeler, özel teklifler ve önemli güncellemeler hakkında bildirim almak ister misin?";
+"notification_enable" = "Aç";
+"notification_disable_message" = "Bildirimleri kapatmak için iOS Ayarlar uygulamasını kullanman gerekiyor.";
+"notification_go_settings" = "Ayarlara Git";
+"notification_disabled_title" = "Bildirimler Kapalı";
+"notification_disabled_message" = "Bildirimleri daha sonra Ayarlar'dan açabilirsin.";
+"notification_story_ready_title" = "🎉 Hikayen Hazır!";
+"notification_story_ready_body" = "Muhteşem hikayen oluşturuldu. Şimdi okumaya başlayabilirsin!";
+"notification_permission_title" = "Bildirim İzni";
+"notification_permission_message" = "Hikayen hazır olduğunda sana bildirim göndermek için izin vermen gerekiyor. İzin vermek ister misin?";
+"notification_permission_allow" = "İzin Ver";
+"notification_wait_message" = "Beklemek istemiyorsan bildirim izni ver";
+"notification_will_notify" = "Üretim tamamlandığında sana bildirim göndereceğiz";
+
+// MARK: - Errors
+"error_generic" = "Bir hata oluştu. Lütfen tekrar dene.";
+"error_network" = "İnternet bağlantını kontrol et.";
+"error_server" = "Sunucu hatası. Lütfen daha sonra tekrar dene.";
+"error_auth" = "Oturum süren doldu. Lütfen tekrar giriş yap.";
+"error_balance_load" = "Bakiye yüklenemedi";
+"error_story_create" = "Hikaye oluşturulamadı";
+"error_story_generation_failed" = "Hikaye oluşturulamadı";
+"error_image_generation_failed" = "Resim oluşturulamadı";
+"error_audio_generation_failed" = "Ses oluşturulamadı";
+"error_insufficient_coins" = "Yetersiz coin";
+"error_invalid_request" = "Geçersiz istek";
+"error_template_not_found" = "Şablon bulunamadı";
+"error_data_processing" = "Veri işleme hatası";
+
+// MARK: - Transaction History
+"transaction_history" = "İşlem Geçmişi";
+"no_transactions" = "Henüz İşlem Yok";
+"no_transactions_desc" = "Coin harcamaların ve kazançların burada görünecek";
+"coins_history" = "İşlem Geçmişi";
+"transaction_reason_story_creation" = "Hikaye Oluşturma";
+"transaction_reason_purchase" = "Coin Satın Alma";
+"transaction_reason_refund" = "İade";
+"transaction_reason_daily_reward" = "Günlük Ödül";
+"transaction_reason_welcome_gift" = "Hoş Geldin Hediyesi";
+"transaction_reason_subscription" = "Abonelik";
+"transaction_reason_subscription_started" = "Abonelik Başlangıcı";
+"transaction_reason_bonus" = "Bonus Coin";
+"transaction_reason_subscription_coins" = "Abonelik Coinleri";
+"transaction_reason_account_created" = "Hesap Oluşturma Hediyesi";
+"transaction_reason_subscription_renewal" = "Abonelik Yenileme";
+"transaction_reason_subscription_upgrade" = "Abonelik Yükseltme";
+"transaction_reason_welcome_bonus" = "Hoş Geldin Bonusu";
+"transaction_reason_guest_account_linked" = "Hesap Bağlama";
+"transaction_reason_account_created_no_coins_abuse_prevention" = "Cihaz Zaten Kayıtlı";
+"transaction_reason_account_created_transaction_error" = "İşlem Hatası";
+"transaction_reason_monthly_refill" = "Aylık Yenileme";
+"transaction_reason_account_sync" = "Hesap Senkronizasyonu";
+"transaction_reason_subscription_verified" = "Abonelik Doğrulandı";
+
+// MARK: - Character Description Hint
+"character_description_hint" = "Karakterin görünüşünü ve kişiliğini tanımlayabilirsiniz. Örn: Kırmızı saçlı, neşeli bir çocuk...";
+"error_fill_required" = "Lütfen tüm zorunlu alanları doldur";
+"error_character_required" = "%@ zorunludur";
+
+// MARK: - Onboarding
+"onboarding_welcome" = "DreamSpire'a Hoş Geldin";
+"onboarding_subtitle" = "Çocuklar için kişiselleştirilmiş hikayeler";
+"onboarding_get_started" = "Başla";
+"onboarding_skip" = "Atla";
+
+// MARK: - Auth
+"auth_sign_in" = "Giriş Yap";
+"auth_sign_up" = "Kayıt Ol";
+"auth_sign_out" = "Çıkış Yap";
+"auth_email" = "E-posta";
+"auth_password" = "Şifre";
+"auth_forgot_password" = "Şifremi Unuttum";
+"auth_continue_guest" = "Misafir Olarak Devam Et";
+"auth_continue_apple" = "Apple ile Devam Et";
+"auth_continue_google" = "Google ile Devam Et";
+
+// MARK: - Tier Badges
+"tier_free" = "Ücretsiz";
+"tier_plus" = "Plus";
+"tier_pro" = "Pro";
+
+// MARK: - Generating View
+"generating_title" = "Hikaye Oluşturuluyor";
+"generating_notification_prompt" = "Beklemek istemiyorsan bildirim izni ver";
+"generating_will_notify" = "Üretim tamamlandığında sana bildirim göndereceğiz";
+
+// MARK: - Voice Options (6 voices)
+"voice_nova" = "Nova";
+"voice_nova_desc" = "Sıcak Kadın";
+"voice_shimmer" = "Shimmer";
+"voice_shimmer_desc" = "Yumuşak Kadın";
+"voice_fable" = "Fable";
+"voice_fable_desc" = "Anlatıcı";
+"voice_alloy" = "Alloy";
+"voice_alloy_desc" = "Dengeli";
+"voice_echo" = "Echo";
+"voice_echo_desc" = "Derin Erkek";
+"voice_onyx" = "Onyx";
+"voice_onyx_desc" = "Güçlü Erkek";
+
+// MARK: - Paywall
+"paywall_title" = "Premium'a Yükselt";
+"paywall_feature_unlimited" = "Sınırsız hikaye oluşturma";
+"paywall_feature_characters" = "Daha fazla karakter";
+"paywall_feature_voices" = "Tüm ses seçenekleri";
+"paywall_feature_priority" = "Öncelikli destek";
+"paywall_restore" = "Satın Alımları Geri Yükle";
+"paywall_privacy" = "Gizlilik Politikası";
+"paywall_terms" = "Kullanım koşulları geçerlidir";
+
+// MARK: - Empty States
+"empty_no_results" = "Sonuç bulunamadı";
+"empty_try_different" = "Farklı filtreler dene";
+
+// MARK: - Story Creation Steps
+"step_1_title" = "Hikaye Fikri";
+"step_2_title" = "Karakterler";
+"step_3_title" = "Detaylar";
+"step_4_title" = "Uzunluk & Özellikler";
+"step_1_of_4" = "Adım 1: Hikaye Fikri";
+"step_2_of_4" = "Adım 2: Karakterler";
+"step_3_of_4" = "Adım 3: Detaylar";
+"step_4_of_4" = "Adım 4: Uzunluk & Özellikler";
+"back" = "Geri";
+"continue" = "Devam Et";
+"generate_story" = "Hikaye Oluştur";
+
+// MARK: - Character Creation
+"add_hero" = "Hikayene kahraman ekle.";
+"min_max_characters" = "Minimum 1, Maksimum %d karakter ekleyebilirsin.";
+"character_add" = "Karakter Ekle";
+"upgrade_for_characters" = "Plus'a yükselt (%d karakter için)";
+"character_name_required" = "İsim *";
+"character_age_label" = "Yaş (İsteğe bağlı)";
+"character_description_label" = "Açıklama (İsteğe bağlı)";
+"character_description_optional" = "Açıklama (İsteğe Bağlı)";
+"saved_characters_title" = "Kayıtlı Karakterler";
+"used_in_stories" = "%d hikayede kullanıldı";
+"age_years" = "%d yaş";
+
+// MARK: - Details Step
+"details_title" = "Detaylar";
+"voice_optional" = "İsteğe bağlı";
+
+// MARK: - Generating
+"generating_progress" = "%d%%";
+"notification_will_send" = "Üretim tamamlandığında sana bildirim göndereceğiz";
+"notification_ask_permission" = "Beklemek istemiyorsan bildirim izni ver";
+"permission_allow" = "İzin Ver";
+
+// MARK: - Subscription
+"subscription_unlock" = "DreamSpire'ı Aç";
+"subscription_unlimited" = "Sınırsız hikaye oluştur ve ailenle paylaş";
+"subscription_current" = "Mevcut Abonelik";
+"subscription_free_plan" = "Ücretsiz Plan";
+"subscription_monthly_stories" = "Aylık %d hikaye";
+"subscription_active" = "Aktif";
+"subscription_used_this_month" = "Bu ay kullanılan:";
+"subscription_stories_count" = "%d/%d hikaye";
+"subscription_upgrade_options" = "Yükseltme Seçenekleri";
+"subscription_compare_features" = "Özellikleri Karşılaştır";
+"subscription_upgrade_now" = "Şimdi Yükselt";
+"subscription_cancel_anytime" = "İstediğin zaman iptal edebilirsin.\nKullanım şartları ve gizlilik politikası için ayarlar bölümüne bak.";
+"subscription_recommended" = "ÖNERİLEN";
+"subscription_per_month" = "$%.2f/ay";
+"subscription_unlimited_stories" = "Sınırsız hikaye";
+"subscription_characters_per_story" = "%d karakter/hikaye";
+"subscription_pdf_export" = "PDF dışa aktarma";
+"subscription_plus_illustration" = "Plus + İllüstrasyon";
+"subscription_premium_voices" = "Premium sesler";
+"paywall_plus_coins" = "+1000 Coin";
+"paywall_plus_stories" = "Ayda 10-15 Hikaye";
+"paywall_plus_characters" = "10 Karakter Kaydı";
+"paywall_plus_prewritten" = "Tüm Hazır Hikayeler";
+"paywall_pdf_export" = "PDF Dışa Aktarma";
+"paywall_pdf_audio_export" = "PDF ve Ses Dosyası Dışa Aktarma";
+"paywall_buy_coins" = "Coin Satın Alabilir";
+"paywall_pro_coins" = "+2500 Coin";
+"paywall_pro_stories" = "Ayda 25-40 Hikaye";
+"paywall_illustrated_stories" = "Resimli Hikayeler";
+"paywall_premium_voices" = "Tüm Ses Seçenekleri";
+"paywall_unlimited_characters" = "Sınırsız Karakter Kaydı";
+"paywall_coin_discount" = "Ekstra Coin İndirimi";
+
+// MARK: - Coins
+"coins_title" = "Coin Mağazası";
+"coins_insufficient_title" = "Yetersiz Coin";
+"coins_need_more" = "Bu işlem için daha fazla coin'e ihtiyacın var.";
+"coins_current_balance" = "Mevcut Bakiye";
+"coins_required" = "Gerekli";
+"coins_buy_coins" = "Coin Satın Al";
+"coins_or" = "veya";
+"coins_upgrade_unlimited" = "Sınırsız için yükselt";
+
+// MARK: - Story Result
+"result_congratulations" = "Tebrikler!";
+"result_story_ready" = "Hikayen hazır!";
+"result_read_now" = "Şimdi Oku";
+"result_share" = "Paylaş";
+"result_create_another" = "Başka Bir Hikaye Oluştur";
+
+// MARK: - Profile
+"profile_title" = "Profil";
+"profile_edit" = "Düzenle";
+"profile_stories_created" = "Oluşturulan Hikayeler";
+"profile_characters_saved" = "Kayıtlı Karakterler";
+"profile_member_since" = "Üyelik Tarihi";
+
+// MARK: - FAQ
+"faq_title" = "Sık Sorulan Sorular";
+"faq_how_to_create" = "Nasıl hikaye oluştururum?";
+"faq_how_to_create_answer" = "Ana sayfadan 'Hikaye Oluştur' butonuna tıkla, karakterlerini ekle ve hikayeni oluştur!";
+"faq_what_is_coin" = "Coin nedir?";
+"faq_what_is_coin_answer" = "Coin, hikaye oluşturmak için kullanılan uygulama içi para birimidir.";
+"faq_languages" = "Hangi dillerde hikaye oluşturabilirim?";
+"faq_languages_answer" = "Türkçe, İngilizce, Fransızca, Almanca ve İspanyolca dillerinde hikaye oluşturabilirsin.";
+
+// MARK: - Contact
+"contact_title" = "Bize Ulaş";
+"contact_email" = "E-posta";
+"contact_subject" = "Konu";
+"contact_message" = "Mesaj";
+"contact_send" = "Gönder";
+
+// MARK: - Onboarding
+"onboarding_page1_title" = "Hayallerini Hikayeye Dönüştür";
+"onboarding_page1_desc" = "Yapay zeka ile kişiselleştirilmiş hikayeler oluştur";
+"onboarding_page2_title" = "Karakterlerini Oluştur";
+"onboarding_page2_desc" = "Kendi karakterlerini ekle ve onları hikayelerde kullan";
+"onboarding_page3_title" = "Dinle ve Oku";
+"onboarding_page3_desc" = "Hikayelerini sesli dinle veya oku";
+"onboarding_title_1" = "Hayallerini Hikayeye Dönüştür";
+"onboarding_desc_1" = "Yapay zeka ile kişiselleştirilmiş hikayeler oluştur";
+"onboarding_title_2" = "Karakterlerini Oluştur";
+"onboarding_desc_2" = "Kendi karakterlerini ekle ve onları hikayelerde kullan";
+"onboarding_title_3" = "Dinle ve Oku";
+"onboarding_desc_3" = "Hikayelerini sesli dinle veya oku";
+
+// MARK: - Login
+"login_title" = "Hoş Geldin";
+"login_subtitle" = "Hesabına giriş yap veya yeni hesap oluştur";
+"login_start_adventure" = "Maceraya Başla";
+"login_create_account" = "Hesap Oluştur";
+"login_join_world" = "DreamSpire dünyasına katıl";
+"login_sign_in" = "Giriş Yap";
+"login_email" = "E-posta";
+"login_password" = "Şifre";
+"login_confirm_password" = "Şifreyi Onayla";
+"login_google" = "Google ile Devam Et";
+"login_have_account" = "Zaten hesabın var mı? Giriş Yap";
+"login_no_account" = "Hesabın yok mu? Kayıt Ol";
+"login_passwords_mismatch" = "Şifreler eşleşmiyor";
+"login_apple_error" = "Apple ile giriş başarısız oldu";
+"login_apple_error_failed" = "Apple ile giriş işlemi başarısız oldu. Lütfen tekrar deneyin";
+"login_apple_error_invalid_response" = "Apple'dan geçersiz yanıt alındı. Lütfen tekrar deneyin";
+"login_apple_error_not_handled" = "Apple giriş isteği işlenemedi. Lütfen tekrar deneyin";
+"login_apple_error_unknown" = "Apple ile giriş sırasında beklenmeyen bir hata oluştu";
+"login_apple_error_not_interactive" = "Apple ile giriş şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin";
+"login_error_guest_continue" = "Misafir olarak devam edilemedi: %@";
+"login_email_placeholder" = "E-posta adresin";
+"login_password_placeholder" = "Şifren";
+"login_forgot" = "Şifreni mi unuttun?";
+"login_button" = "Giriş Yap";
+"login_or" = "veya";
+"login_register" = "Kayıt Ol";
+"login_invalid_email" = "Geçersiz e-posta adresi";
+"login_weak_password" = "Şifre en az 8 karakter, 1 büyük harf, 1 küçük harf ve 1 rakam içermelidir";
+"login_email_not_verified" = "Lütfen e-posta adresinizi doğrulayın";
+"login_verification_sent" = "Doğrulama e-postası gönderildi";
+"login_reset_password" = "Şifre Sıfırla";
+"login_reset_sent" = "Sıfırlama bağlantısı email adresinize gönderilecek.";
+
+// Password Reset Screen
+"password_reset_title" = "Şifreni Sıfırla";
+"password_reset_subtitle" = "Email adresini gir, sana şifre sıfırlama bağlantısı gönderelim";
+"password_reset_send_button" = "Sıfırlama Bağlantısı Gönder";
+"password_reset_back_to_login" = "Giriş Ekranına Dön";
+"password_reset_sent_title" = "Email Gönderildi!";
+"password_reset_sent_subtitle" = "Şifre sıfırlama bağlantısını email adresine gönderdik";
+"password_reset_check_email" = "Lütfen email kutunu kontrol et:";
+"password_reset_resend" = "Tekrar Gönder";
+"password_reset_resend_wait" = "Tekrar gönder (%@)";
+"login_error_email_exists" = "Bu email adresi zaten kullanılıyor";
+"login_error_invalid_email" = "Geçersiz email adresi";
+"login_error_wrong_password" = "Yanlış şifre";
+"login_error_invalid_credentials" = "E-posta veya şifre hatalı. Lütfen kontrol edip tekrar deneyin";
+"login_error_weak_password" = "Şifre çok zayıf. En az 8 karakter, 1 büyük harf, 1 küçük harf ve 1 rakam kullanın";
+"login_error_network" = "Ağ bağlantısı hatası. Lütfen internet bağlantınızı kontrol edin";
+"login_error_user_not_found" = "Bu email ile kayıtlı kullanıcı bulunamadı";
+"login_error_user_disabled" = "Bu hesap devre dışı bırakılmış";
+"login_error_too_many_requests" = "Çok fazla deneme yaptınız. Lütfen daha sonra tekrar deneyin";
+"login_error_invalid_email_format" = "Geçerli bir e-posta adresi girin";
+"login_error_passwords_mismatch" = "Şifreler eşleşmiyor";
+"login_error_invalid_credential" = "Giriş bilgileri geçersiz veya süresi dolmuş";
+"login_error_operation_not_allowed" = "Bu işlem şu anda kullanılamıyor";
+"login_error_requires_recent_login" = "Bu işlem için yeniden giriş yapmanız gerekiyor";
+"login_error_unknown" = "Bir hata oluştu. Lütfen tekrar deneyin";
+
+// MARK: - Coins Modal
+"coins_missing" = "%d coin eksik";
+"coins_one_time_package" = "Tek seferlik coin paketi al";
+"coins_refill_in_days" = "ya da %d gün sonra yenilenir";
+"coins_next_period" = "Yeni dönemde +%d alacaksın";
+
+// MARK: - Upgrade Benefits
+"upgrade_to_plus" = "Plus'a Yükselt";
+"upgrade_to_pro" = "Pro'ya Yükselt";
+"benefit_illustrations" = "İllüstrasyonlu hikayeler";
+"benefit_premium_voices" = "Premium sesler";
+"benefit_family_account" = "Aile hesabı (5 kullanıcı)";
+"benefit_stories_per_month" = "+ 10+ hikaye/ay";
+
+// MARK: - Story Result
+"result_congratulations_message" = "Muhteşem bir hikaye yarattın!";
+"result_reading_time" = "Şimdi okuma zamanı ✨";
+"pages_count" = "%d sayfa";
+"minutes_short" = "%d dk";
+"illustrated" = "Resimli";
+"with_audio" = "Sesli";
+"stat_pages" = "Sayfa";
+"stat_minutes" = "Dakika";
+"stat_illustrations" = "İllüstrasyon";
+
+// MARK: - Character Create
+"character_saved_success" = "Karakter başarıyla kaydedildi!";
+"character_description_hint" = "Karakterin hakkında birkaç cümle yaz";
+"character_type_required" = "Karakter Tipi *";
+
+// MARK: - Common
+"success" = "Başarılı!";
+"error" = "Hata";
+"ok" = "Tamam";
+"story_gen_initializing" = "Başlatılıyor...";
+"story_gen_writing" = "Hikaye yazılıyor...";
+"story_gen_audio" = "Ses ekleniyor...";
+"story_gen_cover" = "Kapak resmi oluşturuluyor...";
+"story_gen_finalizing" = "Tamamlanıyor...";
+"story_gen_completed" = "Hikaye hazır!";
+"story_gen_failed" = "Hata oluştu";
+
+// Modern Generating
+"story_creating_magic" = "Hikayen oluşturuluyor...";
+"estimated_time" = "Bu işlem yaklaşık %d dakika sürebilir";
+"notification_enable_and_continue" = "Bildirim Al ve Devam Et";
+"continue_in_background" = "Arka Planda Devam Et";
+"generating_story" = "Hikaye Oluşturuluyor";
+"story_generating" = "Hikaye oluşturuluyor...";
+"story_generating_background" = "Arka planda devam edebilirsiniz";
+"story_loading_error" = "Hikaye yüklenirken bir sorun oluştu";
+"pdf_generating" = "PDF Oluşturuluyor...";
+"share" = "Paylaş";
+"share_error_title" = "Paylaşım Hatası";
+"share_error_message" = "Dosyalar hazırlanırken bir sorun oluştu. Lütfen tekrar deneyin";
+
+// MARK: - Details Screen
+"details_age_range" = "👶 Yaş Aralığı";
+"details_age_range_subtitle" = "Hikaye hangi yaş grubuna uygun olsun?";
+"details_language" = "🌍 Dil";
+"details_language_subtitle" = "Hikaye hangi dilde oluşturulsun?";
+"details_voice" = "🎙️ Ses Seçimi";
+
+// MARK: - Notification
+"notification_permission_title" = "Bildirim İzni";
+
+// MARK: - Profile
+"profile_guest_mode" = "Misafir Modasındasın";
+"profile_guest_hint" = "Hikayelerini kaydetmek ve cihazlar arası senkronize etmek için giriş yap";
+"profile_sign_in_or_create" = "Giriş Yap veya Hesap Oluştur";
+
+// MARK: - Story Creation
+"almost_ready" = "Neredeyse hazır!";
+"almost_ready_subtitle" = "Son birkaç ayarı belirle ve hikayeni oluştur.";
+
+// MARK: - Coin Shop
+"coin_shop_title" = "Coin Mağazası";
+"coin_unit" = "Coin";
+"coin_shop_buy" = "Satın Al - %@";
+"coin_shop_select_package" = "Bir paket seç";
+"coin_shop_discount" = "%%%d İndirim";
+"coin_purchase_success" = "Satın Alma Başarılı!";
+"coin_purchase_success_message" = "%d coin hesabınıza eklendi";
+"coin_purchase_error" = "Satın Alma Hatası";
+"coin_purchase_verification_failed" = "Doğrulama başarısız. Lütfen tekrar deneyin";
+"coin_insufficient" = "Yetersiz Coin";
+"coin_insufficient_message" = "Bu işlem için yeterli coin'iniz yok. Coin satın almak ister misiniz?";
+
+// MARK: - Purchase Processing
+"purchase_processing" = "İşleminiz Gerçekleştiriliyor";
+"purchase_wait" = "Lütfen bekleyiniz, bu işlem birkaç saniye sürebilir";
+
+// MARK: - Error Messages
+"error_network" = "Bağlantı Hatası";
+"error_network_message" = "İnternet bağlantınızı kontrol edin";
+"error_network_suggestion" = "Lütfen internet bağlantınızı kontrol edip tekrar deneyin";
+"examples_title" = "Örnek Konular";
+
+// MARK: - Prewritten Library
+"prewritten_title" = "📚 Hazır Hikayeler";
+"stories_count" = "%d hikaye";
+"loading_stories" = "Hikayeler yükleniyor...";
+"try_again" = "Tekrar Dene";
+"no_stories_found" = "Hikaye Bulunamadı";
+"no_stories_for_filters" = "Bu filtrelere uygun hikaye bulunmuyor";
+"filter_all" = "Tümü";
+"filter_clear" = "Temizle";
+"filter_clear_all" = "Filtreleri Temizle";
+
+// MARK: - Character Edit
+"character_name_label" = "İsim";
+"character_type_label" = "Tip";
+"save_changes" = "Değişiklikleri Kaydet";
+
+// MARK: - Contact
+"contact_title" = "Bize Ulaş";
+"contact_subtitle" = "Sana yardımcı olmaktan mutluluk duyarız";
+"contact_response_time" = "Yanıt süresi: 24-48 saat";
+"contact_select_topic" = "Konu Seç";
+"contact_subject" = "Başlık";
+"contact_message" = "Mesajın";
+"contact_send" = "Gönder";
+
+// MARK: - Paywall
+"paywall_upgrade_pro" = "Pro'ya Yükselt";
+"paywall_go_premium" = "Premium'a Geç";
+"paywall_more_features" = "Daha fazla özellik ve coin";
+"paywall_unlimited_stories" = "Sınırsız hikaye oluştur";
+"paywall_pro_features" = "Pro Özellikleri";
+"paywall_plus_features" = "Plus Özellikleri";
+"paywall_start_pro" = "Pro ile Başla";
+"paywall_start_plus" = "Plus ile Başla";
+
+// MARK: - Onboarding
+"onboarding_skip" = "Atla";
+"onboarding_create_account" = "Hesap Oluştur";
+"onboarding_already_have_account" = "Zaten hesabım var - Giriş Yap";
+"onboarding_continue_guest" = "Şimdilik Misafir Olarak Devam Et";
+
+// MARK: - Enchanted Onboarding
+"onboarding_new_page1_title" = "Sihirli Masal\nDünyasına Hoş Geldin";
+"onboarding_new_page1_subtitle" = "AI ile masallar senin hayal gücünle buluşuyor";
+"onboarding_page1_feature1" = "Yapay zeka ile sınırsız hikaye üret";
+"onboarding_page1_feature2" = "Her hikaye benzersiz ve kişiselleştirilmiş";
+"onboarding_page1_feature3" = "Yaş grubuna özel içerik";
+
+"onboarding_new_page2_title" = "Kendi Karakterlerini\nYarat";
+"onboarding_new_page2_subtitle" = "Benzersiz masallar için sınırsız yaratıcılık";
+"onboarding_page2_feature1" = "İstediğin karakteri kolayca oluştur";
+"onboarding_page2_feature2" = "Karakterlerini kaydet ve tekrar kullan";
+"onboarding_page2_feature3" = "Her masalda kendi kahramanın olsun";
+
+"onboarding_new_page3_title" = "Dinle, Oku,\nKeşfet";
+"onboarding_new_page3_subtitle" = "İlk hikayeni oluştur ve maceraya başla";
+"onboarding_page3_feature1" = "Profesyonel sesli anlatım";
+"onboarding_page3_feature2" = "Renkli görseller ile zenginleştirilmiş";
+"onboarding_page3_feature3" = "Resimli hikaye sayfaları";
+"onboarding_page3_feature4" = "İstediğin zaman, istediğin yerde";
+
+"onboarding_start_button" = "Başlayalım";
+
+// MARK: - My Characters
+"my_characters_title" = "Karakterlerim";
+"character_deleted" = "Karakter Silindi";
+"character_deleted_message" = "%@ başarıyla silindi.";
+"premium_feature" = "Premium Özellik";
+"character_save_premium_message" = "Karakter kaydetme özelliği Plus ve Pro abonelere özeldir. Aboneliğini yükselterek karakterlerini kaydedebilir ve hikayelerinde tekrar kullanabilirsin!";
+"character_limit" = "Karakter Limiti";
+"character_limit_message" = "Karakter limitine ulaştın (%d). Daha fazla karakter kaydetmek için aboneliğini yükselt!";
+
+// MARK: - Character Detail
+"character_delete_title" = "Karakteri Sil";
+"character_delete_confirm" = "Bu karakteri silmek istediğinden emin misin?";
+"delete" = "Sil";
+"edit" = "Düzenle";
+"character_dna" = "🧬 Karakter DNA'sı";
+"ai_generated" = "AI Üretimi";
+"distinctive_features" = "Ayırt Edici Özellikler";
+"age" = "Yaş";
+"description" = "Açıklama";
+"statistics" = "İstatistikler";
+"used_in_stories" = "Hikayede Kullanıldı";
+"last_used" = "Son Kullanım";
+"edit_character" = "Karakteri Düzenle";
+"insufficient_balance_button" = "Yetersiz Bakiye";
+
+// MARK: - Filter
+"filter_title" = "Filtrele";
+"filter_apply" = "Uygula";
+"filter_category" = "Kategori";
+"filter_access_level" = "Erişim Seviyesi";
+
+// MARK: - Duration Picker
+"duration_story_length" = "📚 Hikaye Uzunluğu";
+"duration_extras" = "✨ Ekstra Özellikler";
+"duration_total_cost" = "Toplam Maliyet";
+"duration_sufficient_balance" = "Yeterli bakiyen var";
+"duration_insufficient_balance" = "Yetersiz bakiye";
+"duration_balance" = "Bakiye: %d";
+"duration_get_coins_now" = "Coin Al";
+"insufficient_balance_button" = "Bakiye Yetersiz";
+
+// MARK: - Addons
+"addon_cover_name" = "Kapak Görseli";
+"addon_cover_desc" = "Yapay zeka ile özel kapak";
+"addon_audio_name" = "Seslendirme";
+"addon_audio_desc" = "Hikayeni sesli olarak dinle";
+"addon_illustrated_name" = "Resimli Hikaye";
+"addon_illustrated_desc" = "Her sayfada büyüleyici görseller";
+
+// MARK: - Profile Stats
+"profile_user" = "Kullanıcı";
+"profile_member_since" = "Üye: %@";
+"profile_this_month" = "📊 Bu Ay";
+"profile_stories" = "Hikaye";
+"profile_reads" = "Okuma";
+"profile_characters" = "Karakter";
+"profile_hours" = "Saat";
+"profile_subscription_info" = "💎 Abonelik Bilgileri";
+"profile_status" = "Durum";
+"profile_active" = "Aktif";
+"profile_manage_subscription" = "Aboneliği Yönet";
+"profile_sign_out" = "Çıkış Yap";
+
+// MARK: - Story Creation Step 1
+"step1_create_story" = "Hikaye Oluştur";
+"step1_progress" = "Adım 1: Fikir";
+"step1_story_idea" = "✨ Hikaye Fikrin Nedir?";
+"step1_placeholder" = "Hikayeni anlat... Örneğin:\nUzayda yaşayan iki kardeşin yeni bir gezegen keşfetmesi...";
+"step1_get_inspired" = "İlham Al";
+"step1_select_genre" = "📚 Tür Seç";
+"step1_select_tone" = "🎭 Ton Seç";
+
+// MARK: - Errors
+"error_balance_load" = "Bakiye yüklenemedi";
+
+// MARK: - Generating
+"generating_preparing" = "Hikaye hazırlanıyor...";
+
+// MARK: - Coin Shop Badges
+"coin_badge_popular" = "⭐ EN POPÜLER";
+"coin_badge_best_value" = "🔥 EN İYİ DEĞER";
+"coins_current_balance" = "Mevcut Bakiye";
+
+// MARK: - Character Actions
+"character_delete_title" = "Karakteri Sil";
+"character_delete_message" = "Bu karakteri silmek istediğinizden emin misiniz?";
+"character_new" = "Yeni Karakter";
+
+// MARK: - Story Creation Step 2
+"step2_add_hero" = "Hikayene kahraman ekle";
+"step2_min_max" = "Minimum 1, Maksimum %d karakter";
+"step2_saved_characters" = "Kayıtlı Karakterler";
+"step2_no_saved" = "Henüz kayıtlı karakter yok";
+
+// MARK: - Inspiration Prompts
+"inspiration_space_adventure" = "Cesur bir astronot, uzak bir galakside gizemli bir gezegende mahsur kalır ve eve dönüş yolunu bulmak için akıllı uzaylı yaratıklarla arkadaş olmak zorundadır";
+"inspiration_underwater" = "Denizin dibinde saklı bir krallık keşfeden küçük bir kız, kayıp hazineyi bulmak için deniz atları ve yunus prensesiyle birlikte maceraya atılır";
+"inspiration_time_travel" = "Bir çocuk dedelerinin çatı katında büyülü bir saat bulur ve geçmişte dinozorlarla, gelecekte robotlarla tanışarak zamanın gizemlerini keşfeder";
+"inspiration_magical_forest" = "Işıldayan mantarların ve konuşan ağaçların yaşadığı büyülü bir ormanda, küçük bir cüce kaybolan yıldız tozunu bulma görevine çıkar";
+"inspiration_robot_friend" = "Yapay zeka ile çalışan sevimli bir robot, küçük bir çocuğun en iyi arkadaşı olur ve birlikte şehirdeki gizli kapıları açarak sürprizlerle dolu maceralara atılırlar";
+"inspiration_talking_animals" = "Bir sabah uyandığında tüm hayvanların konuşabildiğini fark eden çocuk, ormanın derinliklerinde yaşayan bilge baykuşun rehberliğinde unutulmuş bir efsaneyi araştırır";
+"inspiration_pirate_treasure" = "Genç bir kaşif, dedesinin eski haritasını takip ederek gizli bir ada keşfeder ve efsanevi korsan hazinesini bulmak için maceraya atılır";
+"inspiration_dragon_kingdom" = "Sihirli bir portal sayesinde ejderhaların hükmettiği bir krallığa ulaşan çocuk, genç bir ejderhayla arkadaş olup krallığı kurtarmak için birlikte savaşır";
+"inspiration_superhero_school" = "Gizli bir süper kahraman okuluna kabul edilen sıradan bir çocuk, kendi özel güçlerini keşfederken dünyayı tehdit eden gizemli bir kötü adamla yüzleşir";
+"inspiration_fairy_garden" = "Bahçenin derinliklerinde minyatür bir peri köyü keşfeden küçük kız, perilerin büyülü festivalini kurtarmak için onlara yardım eder";
+"inspiration_dinosaur_park" = "Büyükannesinin çiftliğinde gizemli yumurtalar bulan bir çocuk, yumurtadan çıkan sevimli dinozorla birlikte unutulmuş bir dünyayı keşfeder";
+"inspiration_winter_wonderland" = "Kar tanelerinin dans ettiği büyülü bir kış diyarında, genç bir buz patenci kayıp kış prensesini bulma görevine çıkar";
+"inspiration_brave_knight" = "Küçük bir köylü çocuğu, büyülü bir kılıç bularak şövalyelik yolculuğuna başlar ve krallığın en zorlu sınavlarından geçer";
+"inspiration_magical_toy" = "Antikacı dükkânından aldığı eski bir oyuncak ayı, gece yarısı canlanarak çocuğu sihirli oyuncakların gizli dünyasına götürür";
+"inspiration_cloud_city" = "Uçan bir balonla gökyüzüne yükselen çocuk, bulutların üzerinde yaşayan rüya bekçilerinin gizemli şehrine varır ve kayıp rüyaları bulma görevine çıkar";
+"inspiration_invisible_friend" = "Küçük bir çocuk, sadece kendisinin görebildiği yaramaz ama iyi kalpli görünmez bir arkadaşıyla birlikte kasabayı büyük bir kargaşadan kurtarır";
+"inspiration_giant_beanstalk" = "Bahçesine diktiği sihirli bir tohumun bir gecede devasa bir sarmaşığa dönüştüğünü gören çocuk, bulutların üzerindeki devler ülkesini keşfeder";
+"inspiration_cookie_monster" = "Mutfaktaki kurabiye kavanozunun aslında başka bir boyuta açılan bir kapı olduğunu fark eden kardeşler, tatlılar dünyasında heyecan dolu bir yolculuğa çıkar";
+"inspiration_moon_adventure" = "Gümüş bir merdivenle Ay’a tırmanan bir küçük kız, Ay dedenin kayıp tacını bulmak için yıldız tozları arasında dolaşır";
+"inspiration_flying_carpet" = "Eski bir halının dile gelip uçabildiğini gören çocuk, halının sırtında dünyanın yedi harikasını bir gecede gezip sihirli lambayı bulur";
+"inspiration_circus_parade" = "Gece yarısı canlanan oyuncak sirk hayvanları, odayı dev bir panayıra çevirir ve çocuk onlarla birlikte muhteşem bir gösteri hazırlar";
+"inspiration_jungle_safari" = "Kitap okurken sayfaların arasından fırlayan egzotik kuşları takip eden çocuk, odasının aslında bir yağmur ormanı olduğunu keşfeder";
+"inspiration_mystery_museum" = "Okul gezisinde yanlışlıkla müzede kilitli kalan çocuklar, gece yarısı canlanan mumyalara ve antik kahramanlara yardım etmek zorunda kalır";
+"inspiration_ocean_discovery" = "Konuşan bir deniz kabuğu bulan çocuk, okyanusun en derin noktasındaki kayıp Atlantis şehrine giden yolu öğrenir";
+"inspiration_space_academy" = "Gelecekteki bir uzay istasyonunda eğitim gören genç bir pilot, meteor yağmuru sırasında gemisini güvenli bölgeye ulaştırmak için cesur bir karar verir";
+"inspiration_nature_guardian" = "Doğanın sesini duyabilen küçük bir çocuk, ormandaki su kaynağını kurutan gizemli büyüyü çözerek tüm canlıları kurtarır";
+"inspiration_magic_paints" = "Resim yaparken çizdiği her şeyin canlandığını fark eden minik bir ressam, kasabanın gri sokaklarını sihirli fırçasıyla renklendirir";
+"inspiration_pet_detective" = "Mahalledeki kaybolan kedileri bulmak için 'Evcil Hayvan Dedektifliği' kuran çocuklar, izleri takip ederken kendilerini terk edilmiş bir kalenin önünde bulurlar";
+"inspiration_balloon_trip" = "Binlerce balonla havalanan eviyle dünyayı gezen yaşlı bir amca ve küçük çocuk, daha önce kimsenin görmediği gizli bir kıtaya ulaşırlar";
+"inspiration_castle_ghost" = "Eski bir şatoda yaşayan sevimli ve utangaç bir hayalet, yeni taşınan çocuklara şatonun gizli tünellerini göstererek dost olurlar";
+"inspiration_rainbow_bridge" = "Gökkuşağının bittiği yerde bir hazine değil, renklerin yapıldığı sihirli bir fabrika olduğunu keşfeden çocuk, grileşen dünyayı kurtarır";
+"inspiration_toy_hospital" = "Bozulan oyuncakların gece yarısı kendi kendilerini tamir ettikleri gizli bir hastanede, çocuk 'Oyuncak Doktoru' olarak yardıma çağrılır";
+"inspiration_starry_night" = "Yıldızların gökyüzünden birer birer döküldüğünü gören çocuk, onları tek tek toplayıp ait oldukları yerlere yerleştirmek için bir gökyüzü macerasına atılır";
+"inspiration_clockwork_city" = "Dişli çarklardan ve buhardan oluşan gizemli bir robot şehrine giden çocuk, şehrin bozulan ana mekanizmasını tamir etmek için zekice bir plan yapar";
+"inspiration_forgotten_island" = "Haritada görünmeyen, meyvelerinin çikolatadan olduğu gizli bir ada bulan çocuklar, adanın koruyucusu olan dev kaplumbağayı kurtarır";
+"inspiration_music_box" = "Eski bir müzik kutusunu kurduğunda zamanın durduğunu fark eden kız, donup kalan dünyada sadece kendisi hareket ederek büyük bir gizemi çözer";
+"inspiration_dream_catcher" = "Rüyaların dokunduğu bir atölyede yanlışlıkla bir kabusu serbest bırakan çocuk, onu tekrar yakalamak için hayaller dünyasına dalar";
+"inspiration_secret_library" = "Kitapların kendiliğinden uçtuğu ve konuştuğu gizli bir kütüphanede, bir çocuk kaybolan son sayfanın peşine düşer";
+"inspiration_viking_voyage" = "Küçük bir Viking çocuğu, babasının gemisine gizlice binerek efsanevi Kuzey Işıkları'nın kaynağını bulmak için uzun bir yolculuğa çıkar";
+"inspiration_detective_dog" = "Konuşabilen ve çok iyi koku alan bir köpek, küçük ortağıyla birlikte kasabanın en büyük banka soygununu engeller";
+"inspiration_science_fair" = "Okulun teknoloji fuarında yaptığı icadı yanlışlıkla çalışan bir zaman makinesine dönüşen çocuk, kendini tarihin orta yerinde bulur";
+"inspiration_polar_expedition" = "Kuzey Kutbu'nda yaşayan penguenlerle arkadaş olan bir çocuk, eriyen buzulların arasından geçerek efsanevi buz kalesine ulaşır";
+"inspiration_mountain_legend" = "Yüksek dağlarda yaşayan devlerin aslında çok nazik ve müziksever olduğunu keşfeden çocuk, onlarla dev bir koro kurar";
+"inspiration_enchanted_garden" = "Sadece geceleri açan sihirli çiçeklerin olduğu bir bahçede, çocuk çiçeklerin fısıltılarını dinleyerek gizli bir geçidi keşfeder";
+"inspiration_space_mail" = "Gezegenler arası posta dağıtan babasına yardım eden çocuk, yanlış adrese giden sihirli bir paketi sahibine ulaştırmak için Samanyolu'nu geçer";
+"inspiration_firefly_lantern" = "Binlerce ateş böceğinin yardımıyla karanlığı aydınlatan bir fener yapan çocuk, karanlıkta kaybolan yolculara rehberlik eder";
+"inspiration_ancient_egypt" = "Antik Mısır piramitlerinin içinde kaybolan çocuk, hiyeroglifleri çözerek dışarı çıkmanın yolunu bulmaya çalışan bir rehberle tanışır";
+"inspiration_lost_continent" = "Okyanusun ortasında birdenbire beliren kayıp bir kıtada, çocuk ve arkadaşları efsanevi anka kuşunun yuvasını ararlar";
+"inspiration_smart_city" = "Her şeyin yapay zekayla yönetildiği geleceğin şehrinde, bir çocuk tüm sistemi hackleyen yaramaz bir virüsü etkisiz hale getirir";
+"inspiration_magical_perfume" = "Sürüldüğünde görünmez olmayı sağlayan sihirli bir parfüm bulan çocuk, bu gücünü okulun zorbalarına karşı iyilik için kullanır";
+
+// MARK: - Genres
+"genre_bedtime" = "Uyku Vakti";
+"genre_adventure" = "Macera";
+"genre_family" = "Aile";
+"genre_friendship" = "Arkadaşlık";
+"genre_fantasy" = "Fantastik";
+"genre_animals" = "Hayvanlar";
+"genre_princess" = "Prenses";
+"genre_classic" = "Klasik";
+
+// MARK: - Tones (9 tones)
+"tone_calm" = "Sakin";
+"tone_exciting" = "Heyecanlı";
+"tone_funny" = "Komik";
+"tone_cheerful" = "Neşeli";
+"tone_mysterious" = "Gizemli";
+"tone_heartwarming" = "Duygusal";
+"tone_adventurous" = "Maceracı";
+"tone_relaxing" = "Rahatlatıcı";
+"tone_romantic" = "Romantik";
+
+// MARK: - Genres (9 genres)
+"genre_bedtime" = "Uyku Vakti";
+"genre_adventure" = "Macera";
+"genre_family" = "Aile";
+"genre_friendship" = "Arkadaşlık";
+"genre_fantasy" = "Fantastik";
+"genre_animals" = "Hayvanlar";
+"genre_princess" = "Prenses";
+"genre_classic" = "Klasik";
+"genre_mystery" = "Gizem";
+
+// MARK: - Filters
+"filter_category" = "Kategori";
+"filter_access_level" = "Erişim Seviyesi";
+"filter_all" = "Tümü";
+"filter_apply" = "Uygula";
+"filter_clear" = "Temizle";
+"filter_clear_all" = "Filtreleri Temizle";
+"filter_all_stories" = "Tüm hikayeler";
+"filter_free" = "Ücretsiz";
+"filter_free_desc" = "Herkes için erişilebilir";
+"filter_plus" = "Plus";
+"filter_plus_desc" = "Plus aboneleri için";
+"filter_pro" = "Pro";
+"filter_pro_desc" = "Pro aboneleri için";
+
+// MARK: - Character Creation Step 2
+"character_title" = "Karakter %d";
+"character_saved" = "Kaydedildi";
+"character_save" = "Kaydet";
+"character_name_placeholder" = "Karakter ismini gir...";
+"age_example" = "Örn: 8";
+"character_description_label" = "Açıklama (İsteğe Bağlı)";
+"character_description_placeholder" = "Karakterin özellikleri...";
+"character_description_hint" = "Karakterinizin dış görünüşünü ve özelliklerini tanımlayabilirsiniz";
+"character_gender" = "Cinsiyet";
+"character_gender_label" = "Cinsiyet";
+"character_category_family" = "Aile";
+"character_category_relationships" = "İlişkiler";
+"character_category_people" = "İnsanlar";
+"character_category_pets" = "Hayvanlar";
+"character_category_fantasy" = "Fantastik Arkadaşlar";
+"character_type_title" = "Karakter Türü";
+
+// MARK: - Character Detail
+"character_appearance" = "Görünüm";
+"character_ethnicity" = "Etnik Köken";
+"character_height" = "Boy";
+"character_build" = "Yapı";
+"character_face" = "Yüz";
+"character_face_shape" = "Şekil";
+"character_eye_color" = "Göz Rengi";
+"character_eye_shape" = "Göz Şekli";
+"character_nose" = "Burun";
+"character_mouth" = "Ağız";
+"character_skin" = "Ten Rengi";
+"character_hair" = "Saç";
+"character_hair_color" = "Renk";
+"character_hair_length" = "Uzunluk";
+"character_hair_style" = "Stil";
+"character_hair_texture" = "Doku";
+"character_clothing" = "Kıyafet";
+"character_clothing_primary" = "Ana Stil";
+"character_clothing_colors" = "Renk Paleti";
+"character_clothing_style" = "Tarz";
+"character_clothing_signature" = "İmza Parça";
+
+// MARK: - Story Creation Step 3
+"step3_age_range_title" = "👶 Yaş Aralığı";
+"step3_age_range_subtitle" = "Hikaye hangi yaş grubuna uygun olsun?";
+"step3_language_title" = "🌍 Dil";
+"step3_language_subtitle" = "Hikaye hangi dilde oluşturulsun?";
+"step3_voice_title" = "🎙️ Ses Seçimi";
+"step3_voice_subtitle" = "Sesli anlatım için ses seçin (sadece sesli anlatım eklediyseniz)";
+"step3_voice_selection" = "Ses Seçimi";
+"age_range_0_3" = "0-3 yaş";
+"age_range_4_6" = "4-6 yaş";
+"age_range_7_9" = "7-9 yaş";
+"age_range_10_12" = "10-12 yaş";
+"age_range_13_plus" = "13+";
+"language_turkish" = "Türkçe";
+"language_english" = "İngilizce";
+"language_spanish" = "İspanyolca";
+"language_french" = "Fransızca";
+"language_german" = "Almanca";
+"voice_female_1" = "🎙️ Kadın Ses 1";
+"voice_female_2" = "🎙️ Kadın Ses 2";
+"voice_male_1" = "🎙️ Erkek Ses 1";
+"voice_male_2" = "🎙️ Erkek Ses 2";
+"voice_female_1_desc" = "Yumuşak ve sakin";
+"voice_female_2_desc" = "Enerjik ve neşeli";
+"voice_male_1_desc" = "Derin ve rahatlatıcı";
+"voice_male_2_desc" = "Canlı ve heyecanlı";
+
+// MARK: - Duration Picker
+"duration_text_with_name" = "Metin (%@)";
+"duration_cover_image" = "Kapak Görseli";
+"duration_audio_with_minutes" = "Sesli Anlatım (%d dk)";
+"duration_illustrations_with_count" = "İllüstrasyonlar (%d adet)";
+"duration_minutes_with_value" = "%d dk";
+"duration_words_with_value" = "~%d kelime";
+"addon_pro_badge" = "PRO";
+
+// MARK: - Story Result
+"result_story_ready" = "Hikayen Hazır!";
+"result_congratulations_message" = "Tebrikler! Masalınız oluşturuldu";
+"result_reading_time" = "Keyifli okumalar!";
+"result_illustrated" = "İllüstrasyon";
+"result_with_audio" = "Sesli";
+"result_read_now" = "Hemen Oku";
+"result_share" = "Paylaş";
+"result_create_another" = "Yeni Hikaye";
+"stat_pages" = "Sayfa";
+"stat_minutes" = "dk";
+"stat_illustrations" = "Resim";
+"stat_audio_available" = "✓";
+
+// MARK: - Template Gallery & Detail
+"template_gallery_title" = "Şablon Galerisi";
+"template_search_placeholder" = "Şablon ara...";
+"minutes_short_text" = "dk";
+"template_generating_message" = "Şablon hikayeniz hazırlanıyor...";
+"template_step_preview" = "Önizleme";
+"template_step_characters" = "Karakterler";
+"template_step_options" = "Seçenekler";
+"template_age_toddler" = "2-4 yaş";
+"template_age_preschool" = "4-6 yaş";
+"template_age_young" = "5-8 yaş";
+"template_age_middle" = "8-12 yaş";
+"template_age_all" = "Tüm yaşlar";
+"template_generating" = "Oluşturuluyor...";
+
+// MARK: - Library
+"library_guest_my_stories_title" = "Hikayelerinizi Burada Görün";
+"library_guest_my_stories_message" = "Oluşturduğunuz tüm hikayeler burada saklanır. Başlamak için giriş yapın veya yeni bir hesap oluşturun.";
+"library_guest_favorites_title" = "Favorilerinizi Saklayın";
+"library_guest_favorites_message" = "Beğendiğiniz hikayeleri favorilerinize ekleyerek onlara kolaylıkla tekrar ulaşın.";
+
+// Library Filters
+"library_filter_all" = "Tümü";
+"library_filter_all_stories" = "Tüm hikayeler";
+"library_filter_free" = "Ücretsiz";
+"library_filter_free_desc" = "Herkes için erişilebilir";
+"library_filter_plus" = "Plus";
+"library_filter_plus_desc" = "Plus aboneleri için";
+"library_filter_pro" = "Pro";
+"library_filter_pro_desc" = "Pro aboneleri için";
+
+// MARK: - Template Category Filters
+"filter_all" = "Tümü";
+"category_bedtime" = "Uyku Vakti";
+"category_adventure" = "Macera";
+"category_family" = "Aile";
+"category_friendship" = "Dostluk";
+"category_fantasy" = "Fantastik";
+"category_animals" = "Hayvanlar";
+"category_princess" = "Prenses";
+"category_classic" = "Klasik";
+"continue_in_background" = "Arka Planda Devam Et";
+"loading_image" = "Resim yükleniyor...";
+
+// MARK: - Story Duration Names & Descriptions
+"duration_quick_name" = "Kısa Hikaye";
+"duration_quick_desc" = "Hızlı bir uyku öncesi hikaye için mükemmel";
+"duration_standard_name" = "Standart Hikaye";
+"duration_standard_desc" = "Klasik hikaye uzunluğu";
+"duration_extended_name" = "Uzun Hikaye";
+"duration_extended_desc" = "Daha detaylı maceralar için";
+"duration_epic_name" = "Epik Hikaye";
+"duration_epic_desc" = "Sürükleyici bir hikaye deneyimi";
+"duration_most_popular_badge" = "En Popüler";
+
+// MARK: - Addon Names & Descriptions
+"addon_cover_name" = "Kapak Görseli";
+"addon_cover_desc" = "AI ile oluşturulan kapak";
+"addon_audio_name" = "Sesli Anlatım";
+"addon_audio_desc" = "Metinden sese anlatım";
+"addon_illustrated_name" = "Resimli Hikaye";
+"addon_illustrated_desc" = "AI ile oluşturulan sahne görselleri";
+
+// MARK: - Additional Genre Types
+"genre_science" = "Bilim";
+"genre_space" = "Uzay";
+"genre_nature" = "Doğa";
+"genre_ocean" = "Deniz";
+"genre_forest" = "Orman";
+"story_generating_background_message" = "Hikaye arka planda oluşturuluyor. Tamamlandığında kütüphanenizde görebilirsiniz.";
+
+// MARK: - Magical Generating View
+"generating_characters_animating" = "Karakterler Canlandırılıyor...";
+"generating_adventure_forming" = "Macera Şekilleniyor...";
+"generating_magic_touches" = "Sihirli Dokunuşlar Ekleniyor...";
+"generating_images_creating" = "Görseller Oluşturuluyor...";
+"generating_final_touches" = "Son Rötuşlar Yapılıyor...";
+"generating_dont_wait" = "Beklemek istemiyorsanız bildirim izni verin";
+"generating_get_notification" = "Bildirim Al";
+"generating_imagination_working" = "✨ Hayal gücün çalışıyor...";
+"generating_colors_alive" = "🎨 Renkler hayat buluyor...";
+"generating_words_dancing" = "📖 Kelimeler dans ediyor...";
+"generating_magic_happening" = "✨ Sihir gerçekleşiyor...";
+"generating_owl_working" = "🦉 Baykuşumuz çalışıyor...";
+"generating_adventure_shaping" = "💫 Macera şekilleniyor...";
+"generating_characters_alive" = "🎭 Karakterler canlanıyor...";
+"generating_worlds_creating" = "🌈 Dünyalar yaratılıyor...";
+
+// MARK: - Mode Toggle
+"mode_reading" = "Okuma";
+"mode_listening" = "Dinleme";
+
+// MARK: - Story Reader Header
+"minutes_abbreviation" = "dk";
+
+// MARK: - Web Content
+"web_content_failed" = "İçerik yüklenemedi";
+"web_content_try_later" = "Lütfen daha sonra tekrar deneyin";
+
+// MARK: - Settings Debug
+"debug_test_notification" = "Test Notification";
+"debug_clear_notifications" = "Clear All Notifications";
+
+// MARK: - Login Errors
+"login_error_guest_continue" = "Misafir olarak devam edilemedi: %@";
+"login_creating_account" = "Hesap Oluşturuluyor...";
+"login_signing_in" = "Giriş Yapılıyor...";
+
+// MARK: - Coin Modal Pricing
+"coins_monthly_amount" = "Aylık %@ coin";
+"coins_price_monthly" = "$%@/ay";
+
+// MARK: - Contact Categories
+"contact_category_general" = "Genel Soru";
+"contact_category_technical" = "Teknik Destek";
+"contact_category_billing" = "Ödeme ve Fatura";
+"contact_category_feedback" = "Geri Bildirim";
+"contact_category_other" = "Diğer";
+"contact_subject_placeholder" = "Konu başlığı";
+"contact_app_version" = "Uygulama: DreamSpire v%@";
+"contact_title" = "Bize Ulaşın";
+
+// MARK: - Profile Menu
+"profile_plan_suffix" = " Plan";
+"profile_yearly_suffix" = " Yıllık";
+"profile_my_characters" = "Karakterlerim";
+"profile_my_favorites" = "Favorilerim";
+"profile_help_support" = "Yardım & Destek";
+"profile_about" = "Hakkında";
+"profile_sign_out" = "Çıkış Yap";
+
+// MARK: - Paywall
+"paywall_restore_purchases" = "Satın Alımları Geri Yükle";
+"paywall_auto_renew" = "Abonelik otomatik yenilenir • İstediğin zaman iptal et";
+"paywall_monthly_badge" = "AYLIK";
+"paywall_yearly_badge" = "YILLIK";
+"paywall_monthly" = "Aylık";
+"paywall_yearly" = "Yıllık";
+"paywall_yearly_savings" = "2 ay bedava";
+"paywall_per_month" = "/ ay";
+"paywall_per_year" = "/ yıl";
+"paywall_select_button" = "SEÇ";
+
+// Pro Features
+"paywall_pro_coins" = "10.000 jeton / ay";
+"paywall_pro_stories" = "50+ hazır hikaye (Sürekli eklenen)";
+"paywall_illustrated_stories" = "İllüstrasyonlu hikayeler";
+"paywall_premium_voices" = "Premium ses seçenekleri";
+"paywall_unlimited_characters" = "Sınırsız karakter kaydet";
+"paywall_coin_discount" = "%15 jeton indirimi";
+"paywall_buy_coins" = "Jeton satın alma";
+"paywall_pdf_export" = "PDF dışa aktarma";
+
+// Plus Features
+"paywall_plus_coins" = "4.000 jeton / ay";
+"paywall_plus_stories" = "30 hazır hikayeye erişim";
+"paywall_plus_characters" = "10 karakter kaydet";
+"paywall_plus_prewritten" = "30 hazır hikayeye erişim";
+
+// Legal Links
+"paywall_terms" = "Kullanım Şartları";
+"paywall_privacy" = "Gizlilik Politikası";
+
+// NEW: Inline Pricing
+"paywall_savings_badge" = "2 AY HEDİYE!";
+"paywall_or_monthly" = "veya aylık";
+"paywall_month_short" = "ay";
+"paywall_yearly_short" = "Yıllık";
+"paywall_monthly_short" = "Aylık";
+"paywall_most_popular" = "EN POPÜLER";
+"paywall_yearly_start" = "Yıllık Başla";
+"paywall_selected" = "SEÇİLDİ";
+"paywall_monthly_start" = "Aylık Başla";
+"paywall_yearly_option" = "Yıllık Seçenek";
+"paywall_continue" = "Devam Et";
+
+// MARK: - Language Names
+"language_name_turkish" = "Turkish";
+"language_name_english" = "İngilizce";
+"language_name_french" = "French";
+"language_name_german" = "German";
+"language_name_spanish" = "Spanish";
+
+// MARK: - Subscription Features
+"subscription_feature_monthly_stories" = "Aylık Hikaye";
+"subscription_feature_characters_per_story" = "Karakter/Hikaye";
+"subscription_feature_saved_characters" = "Kayıtlı Karakter";
+"subscription_feature_prewritten_stories" = "Hazır Hikayeler";
+"subscription_feature_illustrations" = "İllustrasyonlar";
+"subscription_feature_premium_voices" = "Premium Sesler";
+"subscription_feature_pdf_export" = "PDF Dışa Aktarma";
+"subscription_feature_unlimited" = "Sınırsız";
+"subscription_feature_all" = "Tümü";
+"subscription_plan_label" = "Plan";
+"subscription_price_label" = "Ücret";
+"subscription_renewal_label" = "Yenileme";
+"subscription_recommended" = "ÖNERİLEN";
+
+// MARK: - FAQ
+"faq_title" = "Sık Sorulan Sorular";
+
+// FAQ Categories
+"faq_category_account" = "Hesap";
+"faq_category_stories" = "Hikayeler";
+"faq_category_characters" = "Karakterler";
+"faq_category_subscription" = "Üyelik ve Ödemeler";
+"faq_category_technical" = "Teknik";
+
+// Account Questions
+"faq_account_q1" = "Hesabımı nasıl oluşturabilirim?";
+"faq_account_a1" = "DreamSpire'a giriş yapmak için e-posta adresinizi ve bir şifre girmeniz yeterli. Hesabınız otomatik olarak oluşturulacaktır.";
+"faq_account_q2" = "Şifremi unuttum, ne yapmalıyım?";
+"faq_account_a2" = "Giriş ekranında 'Şifremi Unuttum' seçeneğine tıklayın. E-posta adresinize şifre sıfırlama bağlantısı gönderilecektir.";
+"faq_account_q3" = "Hesabımı nasıl silebilirim?";
+"faq_account_a3" = "Hesabınızı silmek için Ayarlar > Bize Ulaşın kısmından destek ekibimizle iletişime geçebilirsiniz.";
+
+// Stories Questions
+"faq_stories_q1" = "Hikaye nasıl oluştururum?";
+"faq_stories_a1" = "Ana ekrandaki 'Yeni Hikaye' butonuna tıklayın. Karakterleri tanımlayın, hikaye türünü seçin ve DreamSpire sizin için kişiselleştirilmiş bir hikaye oluştursun.";
+"faq_stories_q2" = "Hikayelerimi nasıl kaydedebilirim?";
+"faq_stories_a2" = "Oluşturduğunuz tüm hikayeler otomatik olarak 'Hikayelerim' bölümünde kaydedilir. İstediğiniz zaman bu hikayelere geri dönebilirsiniz.";
+"faq_stories_q3" = "Sesli hikaye özelliği nasıl çalışır?";
+"faq_stories_a3" = "Hikaye oluştururken 'Sesli Anlatım' seçeneğini aktif edin. DreamSpire hikayenizi profesyonel bir ses ile anlatacaktır.";
+"faq_stories_q4" = "Hikayemi paylaşabilir miyim?";
+"faq_stories_a4" = "Evet! Hikaye detay ekranındaki paylaş butonunu kullanarak hikayenizi aileniz ve arkadaşlarınızla paylaşabilirsiniz.";
+
+// Characters Questions
+"faq_characters_q1" = "Karakter nasıl oluştururum?";
+"faq_characters_a1" = "Hikaye oluştururken karakterleri tanımlayın. İsim, yaş, ilgi alanları gibi detayları ekleyerek daha kişisel hikayeler oluşturabilirsiniz.";
+"faq_characters_q2" = "Karakterlerimi kaydedebilir miyim?";
+"faq_characters_a2" = "Evet! Oluşturduğunuz karakterleri kaydedebilir ve gelecek hikayelerde tekrar kullanabilirsiniz.";
+"faq_characters_q3" = "Kaç karakter ekleyebilirim?";
+"faq_characters_a3" = "Hikaye başına en fazla 5 karakter ekleyebilirsiniz. Daha fazla karakter eklemek için Pro üyelik gerekebilir.";
+
+// Subscription Questions
+"faq_subscription_q1" = "Üyelik seçenekleri nelerdir?";
+"faq_subscription_a1" = "DreamSpire Ücretsiz, Plus ve Pro olmak üzere 3 farklı üyelik seviyesi sunar. Her seviye farklı özellikler ve hikaye limitleri içerir.";
+"faq_subscription_q2" = "Coin sistemi nasıl çalışır?";
+"faq_subscription_a2" = "Coin'ler hikaye oluşturmak için kullanılır. Ücretsiz kullanıcılar sınırlı coin alırken, Plus ve Pro üyeler daha fazla coin ve aylık yenilenme hakkına sahiptir.";
+"faq_subscription_q3" = "Üyeliğimi nasıl iptal edebilirim?";
+"faq_subscription_a3" = "iOS Ayarlar > Apple ID > Abonelikler kısmından DreamSpire aboneliğinizi iptal edebilirsiniz.";
+"faq_subscription_q4" = "Coin satın alımı nasıl yapılır?";
+"faq_subscription_a4" = "Ayarlar > Coin Yükle bölümünden farklı coin paketlerini satın alabilirsiniz. Ödemeler Apple Pay üzerinden güvenli bir şekilde gerçekleşir.";
+
+// Technical Questions
+// Offline mode temporarily disabled
+// "faq_technical_q1" = "Uygulama çevrimdışı çalışır mı?";
+// "faq_technical_a1" = "Hikaye oluşturmak için internet bağlantısı gereklidir. Ancak daha önce oluşturduğunuz hikayeleri çevrimdışı okuyabilirsiniz.";
+"faq_technical_q2" = "Hangi cihazlarda çalışır?";
+"faq_technical_a2" = "DreamSpire iOS 16.0 ve üzeri sürümlerde çalışır. iPhone ve iPad cihazlarda kullanabilirsiniz.";
+"faq_technical_q3" = "Verilerim güvende mi?";
+"faq_technical_a3" = "Evet! Tüm verileriniz şifreli olarak saklanır ve asla üçüncü şahıslarla paylaşılmaz. Detaylar için Gizlilik Politikamızı inceleyebilirsiniz.";
+
+// MARK: - Story Result
+"story_result_save_characters" = "Karakterleri Kaydet";
+"story_result_save_characters_description" = "Bu hikayede kullanılan karakterleri bir dahaki sefere tekrar kullanmak için kaydedin";
+
+// MARK: - Story Creation Flow
+"story_creation_already_in_progress" = "Zaten bir hikaye oluşturuluyor.";
+"story_creation_already_in_progress_detail" = "Zaten bir hikaye oluşturuluyor. Kütüphaneden devam eden hikayenizi görebilirsiniz.";
+
+// MARK: - Failed Story Card
+"failed_story_creation_failed" = "Oluşturma Başarısız";
+"failed_story_coin_refunded" = "Coin iade edildi";
+"failed_story_retry" = "Tekrar Dene";
+"failed_story_remove" = "Kaldır";
+
+// MARK: - Audio Mode
+"audio_mode_file_not_found" = "Ses Dosyası Bulunamadı";
+"audio_mode_no_audio_message" = "Bu hikaye için henüz ses dosyası oluşturulmamış";
+
+
+// MARK: - Story Reader Enhancements
+"age_range_0_3" = "0-3 yaş";
+"age_range_3_5" = "3-5 yaş";
+"age_range_4_6" = "4-6 yaş";
+"age_range_6_8" = "6-8 yaş";
+"age_range_7_9" = "7-9 yaş";
+"age_range_9_12" = "9-12 yaş";
+"age_range_10_12" = "10-12 yaş";
+"age_range_13_plus" = "13+";
+"tone_calm_title" = "Sakin";
+"tone_funny_title" = "Eğlenceli";
+"tone_adventure_title" = "Macera";
+"tone_educational_title" = "Eğitici";
+"reader_finished_title" = "Tebrikler!";
+"reader_finished_message" = "Hikayeyi sonuna kadar okudun!";
+"reader_reading_stats" = "Okuma İstatistikleri";
+"reader_pages_read" = "%d sayfa okundu";
+"reader_minutes_suffix_short" = "dk";
+
+// MARK: - Safety & FAQ
+"faq_category_safety" = "Güvenlik ve Filtreleme";
+"faq_safety_q1" = "Çocuğumun uygunsuz içeriğe maruz kalmayacağından nasıl emin olabilirim?";
+"faq_safety_a1" = "DreamSpire, 'Double Steel Armor' adını verdiğimiz çift katmanlı bir koruma sistemi kullanır. İlk katman binlerce yasaklı kelimeyi içeren profesyonel bir süzgeçtir. İkinci katman ise OpenAI Moderation API ile her cümleyi niyet bazlı analiz ederek uygunsuz içerikleri anında engeller.";
+"faq_safety_q2" = "Yapay zeka her zaman güvenli mi?";
+"faq_safety_a2" = "Gelişmiş filtrelerimize rağmen yapay zeka bazen beklenmedik sonuçlar verebilir. Bu nedenle uygulamayı ebeveyn denetiminde kullanmanızı ve çocuğunuzla birlikte keşfetmenizi öneriyoruz.";
+"faq_safety_q3" = "Hangi dillerde koruma sağlanıyor?";
+"faq_safety_a3" = "İçerik denetimi sistemimiz Türkçe, İngilizce, Fransızca, Almanca ve İspanyolca dahil olmak üzere desteklenen tüm 12 dilde kusursuz çalışacak şekilde optimize edilmiştir.";
+"faq_safety_q4" = "Uygunsuz bir durum fark edersem ne yapmalıyım?";
+"faq_safety_a4" = "Ayarlar menüsündeki 'Bize Ulaşın' butonunu kullanarak veya dreamspire.help@gmail.com adresine e-posta göndererek durumu anında bildirebilirsiniz. Geri bildirimleriniz sistemimizi daha da güçlendirmemize yardımcı olur.";
+"faq_ai_control_q" = "Yapay zeka kontrolü ne kadar güvenilir?";
+"faq_ai_control_a" = "Sistemimiz hem profesyonel kelime listelerini hem de OpenAI'ın küresel güvenlik standartlarını (Moderation API) kullanır. Bu sayede sadece kelimeleri değil, cümlenin niyetini ve bağlamını da analiz ederek tam koruma sağlar.";
+"filter_illustrated_only" = "Sadece Resimli";
+"filter_illustrated_desc" = "Sadece görselli hikayeleri göster";
+"filter_apply" = "Uygula";
+
+// MARK: - Template Character Roles
+"template_role_child" = "Çocuk";
+"template_role_parent" = "Ebeveyn";
+"template_role_sibling" = "Kardeş";
+"template_role_friend" = "Arkadaş";
+"template_role_princess" = "Prenses";
+"template_role_fairy" = "Peri";
+"template_role_grandma" = "Büyükanne";
+"template_role_alien" = "Uzaylı Arkadaş";
+"template_role_animal" = "Orman Arkadaşı";
+"template_role_astronaut" = "Astronot";
+"template_role_baby" = "Bebek";
+"template_role_classmate" = "Sınıf Arkadaşı";
+"template_role_companion" = "Uyku Arkadaşı";
+"template_role_diver" = "Dalgıç";
+"template_role_dragon" = "Ejderha";
+"template_role_helper" = "Yardımcı";
+"template_role_hero" = "Kahraman";
+"template_role_mentor" = "Rehber";
+"template_role_mermaid" = "Deniz Kızı";
+"template_role_pet" = "Evcil Hayvan";
+"template_role_robot" = "Robot Arkadaş";
+"template_role_older_sibling" = "Ağabey/Abla";
+"template_role_younger_sibling" = "Küçük Kardeş";
+
+// MARK: - Network & Offline
+"no_internet_title" = "İnternet Bağlantısı Yok";
+"no_internet_message" = "DreamSpire'ı kullanmak için internete bağlanın";
+"no_internet_splash_message" = "DreamSpire aktif bir internet bağlantısı gerektirir. Lütfen ağ bağlantınızı kontrol edip tekrar deneyin.";
+"exit_app" = "Uygulamadan Çık";
+"waiting_for_internet" = "İnternet Bağlantısı Bekleniyor...";
+"retry_attempt" = "Deneme";
+"no_internet_final_message" = "5 denemeden sonra internete bağlanılamadı. Lütfen bağlantınızı kontrol edip tekrar deneyin.";
+
+// MARK: - Alerts
+"alert_welcome_back" = "Tekrar hoş geldin!";
+"alert_account_linked" = "Hesap başarıyla bağlandı!";
+"coins_count_format" = "%d coin";
+
+// MARK: - Alerts
+"alert_welcome_back" = "Tekrar hoş geldin!";
+"alert_account_linked" = "Hesap başarıyla bağlandı!";
+"coins_count_format" = "%d coin";
+
+// MARK: - Fixes
+"transaction_reason_abuse_prevention" = "Cihaz Limiti Aşıldı";
+"settings_pro_unlock" = "Pro Kilidini Aç";
+"paywall_continue" = "Devam Et";
+
+// MARK: - Purchase
+"purchase_processing" = "İşleminiz Yapılıyor";
+"purchase_wait" = "Lütfen bekleyin...";
